@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 27px 90px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.logo p u {
+    text-decoration: none;
+    color: #fd5563;
+}
+
+.bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bar ul li {
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+}
+
+.bar ul li:hover {
+    color: white;
+    background-color: #fd5563;
+}
+
+.seka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.search {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff6ed;
+    cursor: pointer;
+}
+
+.search i {
+    font-size: 13px;
+    color: #ffd2a3;
+}
+
+.krnjg {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    background-color: #fd5563;
+    cursor: pointer;
+}
+
+.krnjg i {
+    font-size: 13px;
+    color: white;
+}
+
+header {
+    padding: 0 90px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    padding-top: 25px;
+}
+
+.fly {
+    font-size: 35px;
+    font-family: 'Righteous', sans-serif;
+}
+
+.fly h2 i {
+    padding: 7px;
+    margin-left: 17px;
+    margin-top: 20px;
+    font-size: 23px;
+    color: white;
+    background-color: #fd5563;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.desc {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.but {
+    margin-top: 25px;
+}
+
+.but button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fd5563;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.but button i {
+    margin-left: 5px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circle {
+    width: 19vw;
+    height: 35vh;
+    margin-top: 25px;
+    background-color: #ffbb76;
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 18.85vw;
+    margin-top: -56vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: relative;
+}
+
+.tren {
+    padding: 24px 90px;
+}
+
+.jutren {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.brand {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 15vw;
+    height: 24vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card img {
+    width: 11vw;
+}
+
+.card h5 {
+    margin-top: 10px;
+}
+
+.purple {
+    background-color: #a059ff;
+    border-radius: 30px;
+}
+
+.orange {
+    background-color: #ffbb76;
+    border-radius: 30px;
+}
+
+.orange img {
+    width: 10.5vw;
+}
+
+.pinkie {
+    background-color: #fd5563;
+    border-radius: 30px;
+}
+
+.pinkie img {
+    width: 7.4vw;
+}
+
+.kanan {
+    width: 7.7%;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#badi {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    padding: 18px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+.isi-nav {
+    width: 160px;
+    height: 20px;
+    background-color: white;
+}
+
+.container1 {
+    width: 100%;
+    margin: 2px 0;
+    display: flex;
+}
+
+.leftside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px #d9d9d9 solid;
+}
+
+.panjang1 {
+    width: 96%;
+    height: 32vh;
+    margin: 10px 0 20px 0;
+    background-color: #d9d9d9;
+}
+
+.panjang2 {
+    width: 57%;
+    height: 6vh;
+    margin-bottom: 48px;
+    background-color: #d9d9d9;
+}
+
+.rightside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px #d9d9d9 solid;
+}
+
+.atas {
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.kotak {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.kecil {
+    width: 35px;
+    aspect-ratio: 1/1;
+    background-color: #d9d9d9;
+}
+
+.circle {
+    width: 170px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.bawah {
+    width: 90%;
+    margin: 20px 0 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.panjang {
+    width: 85%;
+    height: 5vh;
+    background-color: #d9d9d9;
+}
+
+.container2 {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px #d9d9d9 solid;
+    gap: 7px;
+}
+
+.potret {
+    width: 16vw;
+    height: 48vh;
+    background-color: #d9d9d9;
+}
+
+.landscape {
+    width: 26vw;
+    height: 30vh;
+    background-color: #d9d9d9;
+}

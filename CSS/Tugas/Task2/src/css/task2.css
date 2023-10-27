@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 65px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world i {
+    margin-right: 5px;
+}
+
+.bar {
+    padding: 8px 35px;
+    border: 1.7px black solid;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.bar ul li {
+    list-style: none;
+}
+
+.sign {
+    padding: 8px 25px;
+    border: 1.7px black solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign a {
+    margin-right: 5px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    padding: 40px 65px 0 65px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.org {
+    width: 70%;
+    margin-bottom: 13px;
+}
+
+.org h2 {
+    font-size: 50px;
+}
+
+.isi {
+    width: 75%;
+    margin-bottom: 16px;
+}
+
+.isi p {
+    font-size: 14px;
+    color: #9a9898;
+}
+
+.isi p b {
+    color: black;
+}
+
+.but {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.buk {
+    display: flex;
+    align-items: center;
+}
+
+.buk button {
+    padding: 10px 45px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buk button a {
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.link {
+    width: 35px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border: 1.7px black solid;
+    border-radius: 50%;
+}
+
+.link i {
+    font-size: 11px;
+}
+
+.best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpat h5 {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.est h6 {
+    width: 5%;
+    border-left: 1.5px #d9d9d9 solid;
+    padding-left: 10px;
+    color: #9a9898;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.atas {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.sidua {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dislow {
+    width: 17vw;
+    height: 17.7vh;
+    border-radius: 20px;
+}
+
+.biru {
+    background-color: #2b59f5;
+}
+
+.hitam {
+    background-color: black;
+}
+
+.dis {
+    width: 17vw;
+    aspect-ratio: 1/1;
+    background-color: #df9ca3;
+    border-radius: 20px;
+}
+
+.bawah {
+    display: flex;
+    gap: 3px;
+}
+
+.check {
+    width: 15.25vw;
+    height: 18.5vh;
+    background-color: #2b59f5;
+    border-radius: 20px;
+}
+
+.passeng {
+    width: 19.3vw;
+    height: 18.5vh;
+    background-color: #2b59f5;
+    border-radius: 20px;
+}
+
+.bwhpol {
+    padding: 35px 65px 0 65px;
+}
+
+.plus {
+    padding: 21.8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030a4f;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.ecdr {
+    padding-right: 13vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.ikon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.573);
+}
+
+.ikon i {
+    font-size: 11px;
+}
+
+.isie h5 {
+    font-size: 17px;
+}
+
+.isie p {
+    font-size: 11px;
+}

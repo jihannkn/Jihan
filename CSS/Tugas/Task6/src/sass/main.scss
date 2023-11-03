@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 18px 15px;
+
+    .navsatu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .search {
+            padding: 5px 0 3px 0;
+            display: flex;
+            align-items: center;
+            border-bottom: 1.5px #9e9d9d solid;
+
+            input {
+                padding: 5px;
+                border: none;
+                outline: none;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            button {
+                padding-right: 3px;
+                border: none;
+                background-color: transparent;
+
+                i {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .logo {
+            img {
+                width: 6vw;
+            }
+        }
+
+        .ikon {
+            display: flex;
+            align-items: center;
+
+            .ik {
+                padding-right: 15px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                i {
+                    font-size: 16px;
+                }
+            }
+
+            .propil {
+                padding-left: 15px;
+                border-left: 1.5px #9e9d9d solid;
+
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+
+    .navdua {
+        padding-top: 20px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                list-style: none;
+                font-size: 13px;
+                border-bottom: 2px white solid;
+
+                &:hover {
+                    font-weight: bold;
+                    border-bottom: 2px black solid;
+                }
+            }
+
+        }
+
+    }
+}
+
+main {
+    padding: 0 15px 20px 15px;
+    display: flex;
+    justify-content: flex-start;
+
+    .left {
+        width: 40%;
+
+        .satu {
+            img {
+                width: 100%;
+            }
+        }
+
+        .descr {
+            padding: 20px 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .right {
+        width: 60%;
+        padding-left: 25px;
+
+        .titel {
+            font-size: 40px;
+        }
+
+        .shop {
+            padding-top: 13px;
+
+            button {
+                padding: 13px 25px;
+                border: none;
+                background-color: black;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .duatiga {
+            padding-top: 20px;
+            display: flex;
+            gap: 13px;
+
+            img {
+                width: 49.1%;
+            }
+        }
+    }
+}

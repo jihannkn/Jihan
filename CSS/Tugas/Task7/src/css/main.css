@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: "Sen", sans-serif;
+}
+body nav {
+  width: 100%;
+}
+body nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav .navbar .logo {
+  font-size: 14px;
+}
+body nav .navbar .list ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+body nav .navbar .list ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+body nav .navbar .list ul li select {
+  border: none;
+  background-color: transparent;
+  font-family: "Sen", sans-serif;
+  font-weight: bold;
+}
+body nav .navbar .log {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+body nav .navbar .log a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+body nav .navbar .log button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #9fc9fd;
+  cursor: pointer;
+}
+body nav .navbar .log button a {
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+body main {
+  padding-top: 20px;
+  display: flex;
+}
+body main .left {
+  width: 50%;
+  padding-top: 3px;
+}
+body main .left .titel {
+  font-size: 50px;
+  font-weight: bold;
+}
+body main .left .titel .pinki {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+body main .left .titel .pinki div {
+  width: 7vw;
+  height: 6vh;
+  background-color: #f4c9e5;
+  border-radius: 20px;
+}
+body main .left .titel .how {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body main .left .titel .how button {
+  padding: 10px 13px;
+  margin-top: 10px;
+  border: 1.8px black solid;
+  border-radius: 20px;
+  font-family: "Sen", sans-serif;
+  font-size: 12px;
+  background-color: transparent;
+  cursor: pointer;
+}
+body main .left .titel .how button i {
+  margin-right: 8px;
+}
+body main .left .conre {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body main .left .conre button {
+  padding: 10px 15px;
+  background-color: #9fc9fd;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+body main .left .conre button a {
+  font-family: "Sen", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+}
+body main .left .conre button a i {
+  margin-left: 5px;
+}
+body main .left .conre a {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+body main .left .desc {
+  padding-top: 113px;
+}
+body main .left .desc p {
+  font-size: 13px;
+  font-weight: bold;
+}
+body main .left .brand {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+body main .left .brand img {
+  width: 6vw;
+}
+body main .right {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+body main .right .purple {
+  width: 100%;
+  height: 43vh;
+  border-radius: 20px;
+  background-image: url(../../public/assets/image/ungu.jpg);
+  background-size: cover;
+  position: relative;
+}
+body main .right .purple .decsr {
+  width: 93.4%;
+  margin: 20px;
+  position: absolute;
+  color: white;
+}
+body main .right .purple .decsr .if p {
+  font-size: 30px;
+}
+body main .right .purple .decsr .ouri {
+  padding-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body main .right .purple .decsr .ouri p {
+  font-size: 12px;
+}
+body main .right .purple .decsr .ouri button {
+  width: 38px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+body main .right .purple .decsr .ouri button i {
+  font-size: 15px;
+}
+body main .right .bipi {
+  width: 100%;
+  padding-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+body main .right .bipi .card {
+  width: 100%;
+  height: 39.5vh;
+  border-radius: 20px;
+}
+body main .right .bipi .card .isi {
+  margin: 30px;
+  color: white;
+}
+body main .right .bipi .card .isi .but {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .right .bipi .card .isi .but button {
+  padding: 7px 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: "Sen", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+body main .right .bipi .card .isi .but i {
+  padding: 9px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+}
+body main .right .bipi .card .isi .but .propil {
+  display: flex;
+  align-items: center;
+}
+body main .right .bipi .card .isi .but .propil div {
+  width: 27px;
+  aspect-ratio: 1/1;
+  border: 1.5px rgb(188, 188, 188) solid;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: -10px;
+}
+body main .right .bipi .card .isi h3 {
+  padding-top: 30px;
+  font-size: 25px;
+}
+body main .right .bipi .card .isi h1 {
+  padding-top: 19px;
+  font-size: 60px;
+}
+body main .right .bipi .card .isi p {
+  padding-top: 8px;
+  font-size: 12px;
+}
+body main .right .bipi .blue {
+  background-image: url(../../public/assets/image/biru.jpg);
+  background-size: cover;
+}
+body main .right .bipi .pinkie {
+  background-image: url(../../public/assets/image/pink.jpg);
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

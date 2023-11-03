@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Sen', sans-serif;
+
+    nav {
+        width: 100%;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                font-size: 14px;
+            }
+
+            .list {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 35px;
+
+                    li {
+                        list-style: none;
+                        font-size: 14px;
+                        font-weight: bold;
+                        cursor: pointer;
+
+                        select {
+                            border: none;
+                            background-color: transparent;
+                            font-family: 'Sen', sans-serif;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .log {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                font-size: 14px;
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: black;
+                    cursor: pointer;
+                }
+
+                button {
+                    padding: 5px 12px;
+                    border: none;
+                    border-radius: 20px;
+                    background-color: #9fc9fd;
+                    cursor: pointer;
+
+                    a {
+                        font-family: 'Sen', sans-serif;
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        padding-top: 20px;
+        display: flex;
+
+        .left {
+            width: 50%;
+            padding-top: 3px;
+
+            .titel {
+                font-size: 50px;
+                font-weight: bold;
+
+                .pinki {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    div {
+                        width: 7vw;
+                        height: 6vh;
+                        background-color: #f4c9e5;
+                        border-radius: 20px;
+                    }
+                }
+
+                .how {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    button {
+                        padding: 10px 13px;
+                        margin-top: 10px;
+                        border: 1.8px black solid;
+                        border-radius: 20px;
+                        font-family: 'Sen', sans-serif;
+                        font-size: 12px;
+                        background-color: transparent;
+                        cursor: pointer;
+
+                        i {
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+
+            .conre {
+                padding-top: 25px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                button {
+                    padding: 10px 15px;
+                    background-color: #9fc9fd;
+                    border: none;
+                    border-radius: 20px;
+                    cursor: pointer;
+
+                    a {
+                        font-family: 'Sen', sans-serif;
+                        font-size: 13px;
+                        font-weight: 100;
+                        color: white;
+                        text-decoration: none;
+
+                        i {
+                            margin-left: 5px;
+                        }
+                    }
+
+                }
+
+                a {
+                    color: black;
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+
+            .desc {
+                padding-top: 113px;
+
+                p {
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+
+            .brand {
+                padding-top: 20px;
+                display: flex;
+                align-items: center;
+                gap: 70px;
+
+                img {
+                    width: 6vw;
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+
+            .purple {
+                width: 100%;
+                height: 43vh;
+                border-radius: 20px;
+                background-image: url(../../public/assets/image/ungu.jpg);
+                background-size: cover;
+                position: relative;
+
+                .decsr {
+                    width: 93.4%;
+                    margin: 20px;
+                    position: absolute;
+                    color: white;
+
+                    .if {
+                        p {
+                            font-size: 30px;
+                        }
+                    }
+
+                    .ouri {
+                        padding-top: 56px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+
+                        p {
+                            font-size: 12px;
+                        }
+
+                        button {
+                            width: 38px;
+                            aspect-ratio: 1/1;
+                            border-radius: 50%;
+                            border: none;
+                            background-color: white;
+                            cursor: pointer;
+
+                            i {
+                                font-size: 15px;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .bipi {
+                width: 100%;
+                padding-top: 12px;
+                display: flex;
+                gap: 12px;
+
+                .card {
+                    width: 100%;
+                    height: 39.5vh;
+                    border-radius: 20px;
+
+                    .isi {
+                        margin: 30px;
+                        color: white;
+
+                        .but {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            button {
+                                padding: 7px 10px;
+                                background-color: white;
+                                border: none;
+                                border-radius: 20px;
+                                font-family: 'Sen', sans-serif;
+                                font-weight: bold;
+                                font-size: 12px;
+                                cursor: pointer;
+                            }
+
+                            i {
+                                padding: 9px;
+                                background-color: white;
+                                color: black;
+                                border: none;
+                                border-radius: 50%;
+                                font-size: 12px;
+                                cursor: pointer;
+                            }
+
+                            .propil {
+                                display: flex;
+                                align-items: center;
+
+                                div {
+                                    width: 27px;
+                                    aspect-ratio: 1/1;
+                                    border: 1.5px rgb(188, 188, 188) solid;
+                                    border-radius: 50%;
+                                    background-color: white;
+                                    margin-left: -10px;
+                                }
+                            }
+                        }
+
+                        h3 {
+                            padding-top: 30px;
+                            font-size: 25px;
+                        }
+
+                        h1 {
+                            padding-top: 19px;
+                            font-size: 60px;
+                        }
+
+                        p {
+                            padding-top: 8px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+                .blue {
+                    background-image:url(../../public/assets/image/biru.jpg);
+                    background-size: cover;
+
+                }
+
+                .pinkie {
+                    background-image:url(../../public/assets/image/pink.jpg);
+                    background-size: cover;
+
+                }
+
+            }
+
+        }
+    }
+}

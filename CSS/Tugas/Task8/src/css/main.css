@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+}
+section aside {
+  width: 20%;
+  height: 100vh;
+  padding: 25px 20px;
+  font-family: "Cabin", sans-serif;
+}
+section aside .titel p {
+  font-style: italic;
+}
+section aside .titel p i {
+  margin-right: 3px;
+}
+section aside .titel p:nth-child(1) {
+  color: red;
+  font-size: 26px;
+}
+section aside .titel h3 {
+  padding: 30px 0;
+  margin-left: 13px;
+  font-size: 23px;
+}
+section aside .titel button {
+  width: 90%;
+  padding: 14px 0;
+  border: none;
+  background: rgb(213, 31, 38);
+  background: linear-gradient(90deg, rgb(213, 31, 38) 0%, rgb(107, 33, 93) 100%, rgb(0, 212, 255) 100%);
+  color: white;
+  font-family: "Cabin", sans-serif;
+  cursor: pointer;
+}
+section aside .titel button span {
+  margin-right: 55px;
+}
+section aside .titel button i {
+  margin-right: 10px;
+}
+section aside table {
+  padding: 22px 13px 68px 13px;
+}
+section aside table tr {
+  height: 45px;
+}
+section aside table tr td i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+section aside table tr td a {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+section aside .action {
+  padding: 30px 13px 8px 13px;
+  border-top: 1.5px #dddddd solid;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section aside .action a {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+section aside .action a i {
+  margin-right: 10px;
+}
+section main {
+  width: 80%;
+  padding: 25px 20px 25px 5px;
+  font-family: "Cabin", sans-serif;
+}
+section main .input {
+  display: flex;
+  align-items: center;
+}
+section main .input form {
+  padding: 6px;
+  display: flex;
+  background-color: #e8e8e8;
+  gap: 10px;
+}
+section main .input form select {
+  padding: 5px 0 3px 7px;
+  font-family: "Cabin", sans-serif;
+  font-size: 12px;
+  border: none;
+}
+section main .input form .search input {
+  width: 47vw;
+  padding: 3px 7px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Cabin", sans-serif;
+}
+section main .input form .ikon {
+  padding-right: 3px;
+}
+section main .input form .ikon button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+section main .input .ik {
+  padding: 0 40px 0 42px;
+  display: flex;
+  gap: 25px;
+  font-size: 19px;
+  border-right: 1.5px #dddddd solid;
+}
+section main .input .ik .iko {
+  cursor: pointer;
+}
+section main .input .propil {
+  font-size: 19px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+section main .isibr {
+  padding: 18px 0 14px 0;
+  display: flex;
+}
+section main .isibr .imdes {
+  padding-right: 15px;
+  display: flex;
+}
+section main .isibr .imdes .foot img {
+  width: 11vw;
+  height: 100%;
+}
+section main .isibr .imdes .des {
+  padding: 22px 20px 5px 40px;
+  background-color: #f7f7f7;
+}
+section main .isibr .imdes .des .satu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+section main .isibr .imdes .des .satu .garis {
+  width: 3vw;
+  height: 0.3vh;
+  background-color: black;
+}
+section main .isibr .imdes .des .judes {
+  padding: 22px 0;
+}
+section main .isibr .imdes .des .judes p {
+  padding-top: 10px;
+  font-size: 13px;
+  color: #6d6c6c;
+}
+section main .isibr .imdes .des .judes p b {
+  color: black;
+}
+section main .isibr .imdes .des .brand {
+  display: flex;
+  align-items: center;
+  gap: 407px;
+}
+section main .isibr .imdes .des .brand ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section main .isibr .imdes .des .brand ul li {
+  list-style: none;
+}
+section main .isibr .imdes .des .brand ul li img {
+  width: 40px;
+}
+section main .isibr .imdes .des .brand button {
+  width: 35px;
+  aspect-ratio: 1/1;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+section main .isibr .imdes .des .brand button i {
+  color: white;
+  font-size: 13px;
+}
+section main .isibr .sale img {
+  width: 15vw;
+  height: 100%;
+}
+section main .top {
+  display: flex;
+  justify-content: space-between;
+}
+section main .top .left {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+section main .top .left h1 {
+  font-weight: 100;
+  font-size: 20px;
+  color: #6d6c6c;
+}
+section main .top .left h1 span {
+  font-weight: bold;
+  color: black;
+}
+section main .top .left p {
+  margin-bottom: 1px;
+  font-size: 12px;
+  color: #9e9d9d;
+}
+section main .top .right {
+  padding-right: 5px;
+  display: flex;
+  gap: 15px;
+}
+section main .top .right button {
+  background-color: transparent;
+  border: none;
+}
+section main .prdk .shoes {
+  padding-top: 15px;
+  overflow: auto;
+  display: flex;
+  gap: 10px;
+}
+section main .prdk .shoes .luar {
+  padding: 10px;
+  background-color: white;
+  border: 2px #e1dede solid;
+  cursor: pointer;
+}
+section main .prdk .shoes .luar:hover {
+  border: 2px #6d6c6c solid;
+}
+section main .prdk .shoes .luar .gmbr {
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 13px;
+}
+section main .prdk .shoes .luar .gmbr p {
+  font-size: 12px;
+}
+section main .prdk .shoes .luar .gmbr img {
+  padding: 20px 0;
+  width: 8vw;
+}
+section main .prdk .shoes .luar .descr {
+  padding: 8px 0 0 0;
+}
+section main .prdk .shoes .luar .descr h4 {
+  font-size: 12px;
+}
+section main .prdk .shoes .luar .descr .copr {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+section main .prdk .shoes .luar .descr .copr .color {
+  width: 12px;
+  aspect-ratio: 1/1;
+  display: flex;
+  gap: 2px;
+}
+section main .prdk .shoes .luar .descr .copr .color .pink {
+  background-color: #e4d2d8;
+}
+section main .prdk .shoes .luar .descr .copr .color .black {
+  background-color: black;
+}
+section main .prdk .shoes .luar .descr .copr .color .gre {
+  background-color: #a0a0a0;
+}
+section main .prdk .shoes .luar .descr .copr .color .bang {
+  background-color: #ad333f;
+}
+section main .prdk .shoes .luar .descr .copr .color .black {
+  background-color: black;
+}
+section main .prdk .shoes .luar .descr .copr .color .bron {
+  background-color: #c9c3b7;
+}
+section main .prdk .shoes .luar .descr .copr .color .ijo {
+  background-color: #c5d7da;
+}
+section main .prdk .shoes .luar .descr .copr .color .cklt {
+  background-color: #bca18c;
+}
+section main .prdk .shoes .luar .descr .copr .color .tosca {
+  background-color: #348290;
+}
+
+/*# sourceMappingURL=main.css.map */

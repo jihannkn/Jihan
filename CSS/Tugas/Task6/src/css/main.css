@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  padding: 18px 15px;
+}
+nav .navsatu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navsatu .search {
+  padding: 5px 0 3px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px #9e9d9d solid;
+}
+nav .navsatu .search input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+nav .navsatu .search button {
+  padding-right: 3px;
+  border: none;
+  background-color: transparent;
+}
+nav .navsatu .search button i {
+  font-size: 15px;
+}
+nav .navsatu .logo img {
+  width: 6vw;
+}
+nav .navsatu .ikon {
+  display: flex;
+  align-items: center;
+}
+nav .navsatu .ikon .ik {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .navsatu .ikon .ik i {
+  font-size: 16px;
+}
+nav .navsatu .ikon .propil {
+  padding-left: 15px;
+  border-left: 1.5px #9e9d9d solid;
+}
+nav .navsatu .ikon .propil i {
+  font-size: 16px;
+}
+nav .navdua {
+  padding-top: 20px;
+}
+nav .navdua ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navdua ul li {
+  list-style: none;
+  font-size: 13px;
+  border-bottom: 2px white solid;
+}
+nav .navdua ul li:hover {
+  font-weight: bold;
+  border-bottom: 2px black solid;
+}
+
+main {
+  padding: 0 15px 20px 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+main .left {
+  width: 40%;
+}
+main .left .satu img {
+  width: 100%;
+}
+main .left .descr {
+  padding: 20px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .left .descr h2 {
+  font-weight: bold;
+}
+main .left .descr p {
+  font-size: 12px;
+}
+main .right {
+  width: 60%;
+  padding-left: 25px;
+}
+main .right .titel {
+  font-size: 40px;
+}
+main .right .shop {
+  padding-top: 13px;
+}
+main .right .shop button {
+  padding: 13px 25px;
+  border: none;
+  background-color: black;
+}
+main .right .shop button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+main .right .duatiga {
+  padding-top: 20px;
+  display: flex;
+  gap: 13px;
+}
+main .right .duatiga img {
+  width: 49.1%;
+}
+
+/*# sourceMappingURL=main.css.map */

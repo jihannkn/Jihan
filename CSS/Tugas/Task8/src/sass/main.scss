@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    
+    aside {
+        width: 20%;
+        height: 100vh;
+        padding: 25px 20px;
+        font-family: 'Cabin', sans-serif;
+        
+        .titel {
+
+            p {
+                font-style: italic;
+
+                i {
+                    margin-right: 3px;
+                }
+
+                &:nth-child(1) {
+                    color: red;
+                    font-size: 26px;
+                }
+
+            }
+
+            h3 {
+                padding: 30px 0;
+                margin-left: 13px;
+                font-size: 23px;
+            }
+
+            button {
+                width: 90%;
+                padding: 14px 0;
+                border: none;
+                background: rgb(213,31,38);
+                background: linear-gradient(90deg, rgba(213,31,38,1) 0%, rgba(107,33,93,1) 100%, rgba(0,212,255,1) 100%);
+                color: white;
+                font-family: 'Cabin', sans-serif;
+                cursor: pointer;
+
+                span {
+                    margin-right: 55px;
+                }
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        table {
+            padding: 22px 13px 68px 13px;
+
+            tr {
+                height: 45px;
+
+                td {
+                    i {
+                        margin-right: 10px;
+                        font-size: 13px;
+                    }
+                    a {
+                        margin-bottom: 20px;
+                        font-size: 13px;
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+
+        .action {
+            padding: 30px 13px 8px 13px;
+            border-top: 1.5px #dddddd solid;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                color: black;
+
+                i {
+                    margin-right: 10px;
+                }
+
+            }
+        }
+    }
+
+    main {
+        width: 80%;
+        padding: 25px 20px 25px 5px;
+        font-family: 'Cabin', sans-serif;
+
+        .input {
+            display: flex;
+            align-items: center;
+
+            form {
+                padding: 6px;
+                display: flex;
+                background-color: #e8e8e8;
+                gap: 10px;
+
+                select {
+                    padding: 5px 0 3px 7px;
+                    font-family: 'Cabin', sans-serif;
+                    font-size: 12px;
+                    border: none;
+                }
+
+                .search {
+                    
+
+                    input {
+                        width: 47vw;
+                        padding: 3px 7px;
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                        font-family: 'Cabin', sans-serif;
+                    }
+                }
+
+                .ikon {
+                    padding-right: 3px;
+
+                    button {
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .ik {
+                padding: 0 40px 0 42px;
+                display: flex;
+                gap: 25px;
+                font-size: 19px;
+                border-right: 1.5px #dddddd solid;
+
+                .iko {
+                    cursor: pointer;
+                }
+            }
+
+            .propil {
+                font-size: 19px;
+                padding-left: 35px;
+                cursor: pointer;
+            }
+
+        }
+
+        .isibr {
+            padding: 18px 0 14px 0;
+            display: flex;
+
+            .imdes {
+                padding-right: 15px;
+                display: flex;
+                
+                .foot {
+                    img {
+                        width: 11vw;
+                        height: 100%;
+                    }
+                }
+
+                .des {
+                    padding: 22px 20px 5px 40px;
+                    background-color: #f7f7f7;
+
+                    .satu {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+
+                        .garis {
+                            width: 3vw;
+                            height: 0.3vh;
+                            background-color: black;
+                        }
+                    }
+
+                    .judes {
+                        padding: 22px 0;
+
+                        p {
+                            padding-top: 10px;
+                            font-size: 13px;
+                            color: #6d6c6c;
+
+                            b {
+                                color: black;
+                            }
+                        }
+                    }
+
+                    .brand {
+                        display: flex;
+                        align-items: center;
+                        gap: 407px;
+
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+
+                            li {
+                                list-style: none;
+
+                                img {
+                                    width: 40px;
+                                }
+                            }
+                        }
+
+                        button {
+                            width: 35px;
+                            aspect-ratio: 1/1;
+                            background-color: black;
+                            border: none;
+                            cursor: pointer;
+
+                            i {
+                                color: white;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .sale {
+                
+                img {
+                    width: 15vw;
+                    height: 100%;
+                }
+                
+            }
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                display: flex;
+                align-items: flex-end;
+                gap: 15px;
+
+                h1 {
+                    font-weight: 100;
+                    font-size: 20px;
+                    color: #6d6c6c;
+
+                    span {
+                        font-weight: bold;
+                        color: black;
+                    }
+                }
+
+                p {
+                    margin-bottom: 1px;
+                    font-size: 12px;
+                    color: #9e9d9d;
+                }
+            }
+
+            .right {
+                padding-right: 5px;
+                display: flex;
+                gap: 15px;
+
+                button {
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+        }
+
+        .prdk {
+            .shoes {
+                padding-top: 15px;
+                overflow: auto;
+                display: flex;
+                gap: 10px;
+
+                .luar {
+                    padding: 10px;
+                    background-color: white;
+                    border: 2px #e1dede solid;
+                    cursor: pointer;
+
+                    &:hover {
+                        border: 2px #6d6c6c solid;
+                    }
+
+                    .gmbr {
+                        position: relative;
+                        background-color: #f7f7f7;
+                        padding: 13px;
+
+                        p {
+                            font-size: 12px;
+                        }
+
+                        img {
+                            padding: 20px 0;
+                            width: 8vw;
+                        }
+                    }
+
+                    .descr {
+                        padding: 8px 0 0 0;
+
+                        h4 {
+                            font-size: 12px;
+                        }
+
+                        .copr {
+                            padding-top: 8px;
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 12px;
+
+                            .color {
+                                width: 12px;
+                                aspect-ratio: 1/1;
+                                display: flex;
+                                gap: 2px;
+
+                                .pink {
+                                    background-color: #e4d2d8;
+                                }
+                                .black {
+                                    background-color: black;
+                                }
+                                .gre {
+                                    background-color: #a0a0a0;
+                                }
+                                .bang {
+                                    background-color: #ad333f;
+                                }
+                                .black {
+                                    background-color: black;
+                                }
+                                .bron {
+                                    background-color: #c9c3b7;
+                                }
+                                .ijo {
+                                    background-color: #c5d7da;
+                                }
+                                .cklt {
+                                    background-color: #bca18c;
+                                }
+                                .tosca {
+                                    background-color: #348290;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

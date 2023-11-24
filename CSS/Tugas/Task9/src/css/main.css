@@ -1,0 +1,578 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background-color: #eaedff;
+}
+section aside {
+  width: 8%;
+  height: 100vh;
+  padding: 10px 15px 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4d4f57;
+  position: relative;
+}
+section aside .logo {
+  font-size: 25px;
+}
+section aside .logo h1 {
+  color: #f8990e;
+}
+section aside .logo h1 span {
+  color: black;
+}
+section aside .bar {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+section aside .bar .choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+section aside .bar .choose i {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+section aside .bar .choose i:hover {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #0079ff;
+  color: white;
+}
+section aside .help {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+section aside .help i {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+section aside .help i:hover {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #0079ff;
+  color: white;
+}
+section main {
+  width: 92%;
+  height: 100vh;
+}
+section main nav {
+  padding: 10px 50px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section main nav .kiri {
+  padding: 10px 10px 10px 25px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 15px;
+  border-left: 1.8px #4d4f57 solid;
+}
+section main nav .kiri p:nth-child(2) {
+  color: #4d4f57;
+}
+section main nav .kanan {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+section main nav .kanan button {
+  padding: 9px 17px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0079ff;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+section main nav .kanan button i {
+  margin-right: 5px;
+}
+section main nav .kanan i:nth-child(4) {
+  width: 35px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1.7px black solid;
+}
+section main header {
+  height: 85vh;
+  padding: 15px 25px;
+  margin-right: 12px;
+  border-radius: 10px;
+  background-color: white;
+}
+section main header .atas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section main header .atas .explore {
+  width: 70%;
+  height: 38vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #f5d661;
+  border-radius: 15px;
+}
+section main header .atas .explore .lep .ex {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+section main header .atas .explore .lep .cardex {
+  width: 22%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+section main header .atas .explore .lep .cardex h3 {
+  font-size: 12px;
+}
+section main header .atas .explore .lep .cardex p {
+  margin-top: 4px;
+  font-size: 11px;
+  color: red;
+}
+section main header .atas .explore .lep .cardex p span {
+  color: black;
+  text-decoration: line-through;
+}
+section main header .atas .explore .lep .cardex .warna {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+section main header .atas .explore .lep .cardex .warna button {
+  padding: 2px 9px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  background-color: #d0e0ff;
+  color: #356aa5;
+  cursor: pointer;
+}
+section main header .atas .explore .lep .cardex .warna .circo {
+  width: 8px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  gap: 7px;
+}
+section main header .atas .explore .lep .cardex .warna .circo .hitam {
+  background-color: black;
+}
+section main header .atas .explore .lep .cardex .warna .circo .merah {
+  background-color: red;
+}
+section main header .atas .explore .lep .cardex .warna .circo .oren {
+  background-color: orange;
+}
+section main header .atas .explore .lep .cardex .warna .circo .kuning {
+  background-color: yellow;
+}
+section main header .atas .explore .lep .cardex .warna .circo .ijo {
+  background-color: green;
+}
+section main header .atas .explore .lep .bwh {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+}
+section main header .atas .explore .lep .bwh p {
+  padding: 8px 20px;
+  color: white;
+  font-size: 11px;
+}
+section main header .atas .explore .lep .bwh p:nth-child(1) {
+  background-color: #ef6000;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  z-index: 9;
+}
+section main header .atas .explore .lep .bwh p:nth-child(2) {
+  background-color: #0079ff;
+  border-top-right-radius: 15px;
+  margin-left: -12px;
+}
+section main header .atas .explore .reg img {
+  position: absolute;
+  width: 340px;
+  right: 0;
+  margin-right: 80px;
+  rotate: -9deg;
+}
+section main header .atas .explore .reg h1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 35px;
+  rotate: -30deg;
+  margin-bottom: 10px;
+}
+section main header .atas .graph {
+  width: 26%;
+  height: 40vh;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c8ecd8;
+  border-radius: 15px;
+  border: none;
+  font-size: 12px;
+}
+section main header .atas .graph .graf1 .ungu {
+  width: 80%;
+  height: 3.8vh;
+  margin-top: 8px;
+  background-color: #cabcff;
+  border-radius: 3px;
+}
+section main header .atas .graph .graf1 .angkakiri {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8.5px;
+}
+section main header .atas .graph .graf2 .gatas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+section main header .atas .graph .graf2 .gatas select {
+  padding: 7px;
+  background-color: transparent;
+  border: 1.8px white solid;
+  border-radius: 13px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+section main header .atas .graph .graf2 .gbawah {
+  height: 30vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 22px;
+}
+section main header .atas .graph .graf2 .gbawah .gra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+section main header .atas .graph .graf2 .gbawah .gra .gracol {
+  width: 100%;
+}
+section main header .atas .graph .graf2 .gbawah .gra .satu {
+  height: 20.7vh;
+  background-color: #8983ff;
+}
+section main header .atas .graph .graf2 .gbawah .gra .dua {
+  height: 16vh;
+  background-color: #ffbe9a;
+}
+section main header .atas .graph .graf2 .gbawah .gra .tiga {
+  height: 24vh;
+  background-color: #3185fc;
+}
+section main header .atas .graph .graf2 .gbawah .gra .empat {
+  height: 13vh;
+  background-color: #8983ff;
+}
+section main header .atas .graph .graf2 .gbawah .gra .lima {
+  height: 19vh;
+  background-color: #8983ff;
+}
+section main header .atas .graph .graf2 .gbawah .gra .enam {
+  height: 10.6vh;
+  background-color: #ffbe9a;
+}
+section main header .atas .graph .graf2 .gbawah .gra .tuju {
+  height: 17.6vh;
+  background-color: #abd4bf;
+}
+section main header .bawah {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+section main header .bawah .produk {
+  width: 75%;
+  height: 40vh;
+}
+section main header .bawah .produk .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+section main header .bawah .produk .top .leftre p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section main header .bawah .produk .top .leftre p::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 22px;
+  left: 0;
+  position: relative;
+  background-color: #80e199;
+  border-radius: 2px;
+}
+section main header .bawah .produk .top .rightlas {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+section main header .bawah .produk .top .rightlas select {
+  padding: 7px;
+  background-color: transparent;
+  border: 1.3px #bdbcbc solid;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+section main header .bawah .produk .top .rightlas button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0079ff;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+section main header .bawah .produk .bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section main header .bawah .produk .bottom .cardd {
+  width: 20%;
+  height: 33vh;
+}
+section main header .bawah .produk .bottom .cardd .image {
+  position: relative;
+  height: 18vh;
+  border-radius: 17px;
+}
+section main header .bawah .produk .bottom .cardd .image img {
+  position: absolute;
+  margin-left: 20px;
+  width: 80%;
+}
+section main header .bawah .produk .bottom .cardd .one {
+  background-color: #7de399;
+}
+section main header .bawah .produk .bottom .cardd .two {
+  background-color: #f1e3fe;
+}
+section main header .bawah .produk .bottom .cardd .two p {
+  position: absolute;
+  top: 0;
+  padding: 5px 10px;
+  color: white;
+  font-size: 9px;
+  background-color: #0079ff;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+section main header .bawah .produk .bottom .cardd .three {
+  background-color: #7c7bf0;
+}
+section main header .bawah .produk .bottom .cardd .three .bwh {
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+section main header .bawah .produk .bottom .cardd .three .bwh p {
+  padding: 5px 10px;
+  color: white;
+  font-size: 9px;
+}
+section main header .bawah .produk .bottom .cardd .three .bwh p:nth-child(1) {
+  background-color: #ef6000;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  z-index: 9;
+}
+section main header .bawah .produk .bottom .cardd .three .bwh p:nth-child(2) {
+  padding-left: 17px;
+  background-color: #0079ff;
+  border-bottom-right-radius: 15px;
+  margin-left: -14px;
+}
+section main header .bawah .produk .bottom .cardd .four {
+  background-color: #63e7e6;
+}
+section main header .bawah .produk .bottom .cardd .desc {
+  height: 15vh;
+  padding: 12px 4px;
+}
+section main header .bawah .produk .bottom .cardd .desc h3 {
+  font-size: 12px;
+}
+section main header .bawah .produk .bottom .cardd .desc p {
+  margin-top: 4px;
+  font-size: 11px;
+  color: red;
+}
+section main header .bawah .produk .bottom .cardd .desc p span {
+  margin-left: 10px;
+  color: black;
+  text-decoration: line-through;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna button {
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  background-color: #d0e0ff;
+  color: #356aa5;
+  cursor: pointer;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo {
+  width: 11px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  gap: 7px;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo .hitam {
+  background-color: black;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo .merah {
+  background-color: red;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo .oren {
+  background-color: orange;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo .kuning {
+  background-color: yellow;
+}
+section main header .bawah .produk .bottom .cardd .desc .warna .circo .ijo {
+  background-color: green;
+}
+section main header .bawah .pipel {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 13px;
+  gap: 20px;
+}
+section main header .bawah .pipel .persen .awal i {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #b9e3cb;
+}
+section main header .bawah .pipel .persen .titel {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 11px;
+}
+section main header .bawah .pipel .persen h1 {
+  margin-top: 4px;
+  font-size: 17px;
+}
+section main header .bawah .pipel .persen .hijo {
+  margin-top: 3px;
+}
+section main header .bawah .pipel .persen .hijo p {
+  font-size: 11px;
+  color: green;
+}
+section main header .bawah .pipel .persen .hijo p i {
+  margin-right: 5px;
+}
+section main header .bawah .pipel .persen .hijo p span {
+  color: black;
+  margin-left: 1px;
+}
+section main header .bawah .pipel .persen .akhir i {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #c8bdfe;
+  rotate: -90deg;
+}
+
+/*# sourceMappingURL=main.css.map */

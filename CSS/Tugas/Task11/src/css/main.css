@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+section .container1 {
+  width: 100%;
+  padding: 20px 70px;
+}
+section .container1 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container1 .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+section .container1 .nav .logo img {
+  width: 5%;
+}
+section .container1 .nav .logo h4 span {
+  color: #6c6a6c;
+}
+section .container1 .nav .logo h4 span:nth-child(2) {
+  font-size: 10px;
+}
+section .container1 .nav .bar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 13px;
+}
+section .container1 .nav .bar h4 {
+  color: #6c6a6c;
+}
+section .container1 .nav .bar h4:hover {
+  color: black;
+}
+section .container1 .nav .engsig {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .container1 .nav .engsig .english {
+  font-size: 13px;
+  color: #6c6a6c;
+}
+section .container1 .nav .engsig .butsig button {
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 1.5px black solid;
+}
+section .container1 .nav .engsig .butsig button:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container1 .nav .engsig .butsig button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+section .container1 .main1 {
+  padding-top: 20px;
+  display: flex;
+}
+section .container1 .main1 .left1 {
+  width: 50%;
+}
+section .container1 .main1 .left1 .titel1 {
+  margin-top: 70px;
+  width: 79%;
+  font-size: 33px;
+}
+section .container1 .main1 .left1 .desc1 {
+  width: 60%;
+  margin-top: 10px;
+  font-size: 12px;
+}
+section .container1 .main1 .left1 .but1 {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .container1 .main1 .left1 .but1 button {
+  padding: 8px 20px;
+  border: 1.5px black solid;
+}
+section .container1 .main1 .left1 .but1 button:nth-child(1) {
+  background-color: transparent;
+}
+section .container1 .main1 .left1 .but1 button:nth-child(1):hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container1 .main1 .left1 .but1 button:nth-child(2) {
+  background-color: transparent;
+}
+section .container1 .main1 .left1 .but1 button:nth-child(2):hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container1 .main1 .left1 .but1 button a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+section .container1 .main1 .left1 .but1 button a:nth-child(1) {
+  color: black;
+}
+section .container1 .main1 .left1 .but1 button a:nth-child(2) {
+  color: black;
+}
+section .container1 .main1 .right1 {
+  width: 50%;
+}
+section .container1 .main1 .right1 img {
+  width: 90%;
+}
+section .container1 .footer1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+section .container1 .footer1 img {
+  width: 15%;
+}
+section .container2 {
+  width: 100%;
+  padding: 20px 70px;
+}
+section .container2 .isicont {
+  padding: 20px 20px 40px 20px;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container2 .isicont h5 {
+  letter-spacing: 10px;
+  font-size: 11px;
+}
+section .container2 .isicont h1 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+section .container2 .isicont p {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+section .container2 .isicont .card2 {
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+section .container2 .isicont .card2 .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+section .container2 .isicont .card2 .top .ccard2 {
+  width: 50%;
+  height: 26vh;
+  padding: 15px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+section .container2 .isicont .card2 .top .ccard2 img {
+  width: 10%;
+}
+section .container2 .isicont .card2 .top .ccard2 h1 {
+  font-size: 20px;
+}
+section .container2 .isicont .card2 .top .ccard2 p {
+  width: 85%;
+  text-align: left;
+}
+section .container3 {
+  width: 100%;
+  padding: 20px 70px;
+  display: flex;
+}
+section .container3 .left3 {
+  width: 50%;
+}
+section .container3 .left3 img {
+  width: 96%;
+}
+section .container3 .right3 {
+  width: 50%;
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section .container3 .right3 h1 {
+  font-size: 45px;
+}
+section .container3 .right3 p {
+  margin-top: 15px;
+  font-size: 19px;
+}
+section .container3 .right3 .but3 {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .container3 .right3 .but3 button {
+  padding: 8px 20px;
+  border: 1.5px black solid;
+}
+section .container3 .right3 .but3 button:nth-child(1) {
+  background-color: transparent;
+}
+section .container3 .right3 .but3 button:nth-child(1):hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container3 .right3 .but3 button:nth-child(2) {
+  background-color: transparent;
+}
+section .container3 .right3 .but3 button:nth-child(2):hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container3 .right3 .but3 button a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+section .container3 .right3 .but3 button a:nth-child(1) {
+  color: black;
+}
+section .container3 .right3 .but3 button a:nth-child(2) {
+  color: black;
+}
+section .container4 {
+  width: 100%;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 h5 {
+  letter-spacing: 10px;
+  font-size: 11px;
+}
+section .container4 h1 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+section .container4 p {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+section .container4 .luar {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container4 .luar .atast {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+section .container4 .luar .atast .one {
+  width: 40%;
+  margin-left: 6px;
+}
+section .container4 .luar .atast .one .logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+section .container4 .luar .atast .one .logo img {
+  width: 10%;
+}
+section .container4 .luar .atast .one .logo h4 {
+  font-size: 20px;
+}
+section .container4 .luar .atast .one .logo h4 span {
+  color: #6c6a6c;
+}
+section .container4 .luar .atast .one .logo h4 span:nth-child(2) {
+  font-size: 10px;
+}
+section .container4 .luar .atast .lain {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container4 .luar .atast .lain h6 {
+  margin-right: 15px;
+  width: 30%;
+  font-size: 23px;
+}
+section .container4 .luar .atast .lain b {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+section .container4 .luar .atast .lain b span {
+  margin-top: 5px;
+  font-size: 9px;
+}
+section .container4 .luar .atast .lain:nth-child(5) h6 {
+  margin-left: 28px;
+}
+section .container4 .luar .bawaht {
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+section .container4 .luar .bawaht .kolom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+section .container4 .luar .bawaht .kolom .one {
+  width: 40%;
+  height: 10vh;
+  margin-left: 8px;
+  padding: 15px 0 15px 30px;
+}
+section .container4 .luar .bawaht .kolom .one h4 {
+  font-size: 15px;
+}
+section .container4 .luar .bawaht .kolom .laine {
+  width: 60%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+section .container4 .luar .bawaht .kolom .laine .lain {
+  width: 25%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 .luar .bawaht .kolom .laine .lain i {
+  font-size: 19px;
+}
+section .container4 .luar .bawaht .kolom:nth-child(1) .laine {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+section .container4 .luar .bawaht .kolom:nth-child(1) .laine:hover {
+  border-top-left-radius: 0;
+}
+section .container4 .luar .bawaht .kolom:nth-child(5) .laine {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+section .container4 .luar .bawaht .kolom:nth-child(5) .laine:hover {
+  border-bottom-left-radius: 0;
+}
+section .container4 .luar .bawaht .kolom:hover .one {
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+section .container5 {
+  width: 100%;
+  padding: 40px 70px 20px 70px;
+  display: flex;
+}
+section .container5 .left5 {
+  width: 50%;
+}
+section .container5 .left5 p {
+  margin-top: 15px;
+  width: 60%;
+  font-size: 14px;
+}
+section .container5 .left5 .search {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+section .container5 .left5 .search .butse {
+  width: 50%;
+  padding: 2px 10px;
+  border: 1.5px #6c6a6c solid;
+}
+section .container5 .left5 .search .butse input {
+  width: 87%;
+  padding: 8px;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+section .container5 .left5 .search .butse input::placeholder {
+  color: #6c6a6c;
+}
+section .container5 .left5 .search .ikbut button {
+  padding: 13px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+section .container5 .left5 .butseem {
+  margin-top: 25px;
+}
+section .container5 .left5 .butseem button {
+  padding: 8px 10px;
+  background-color: transparent;
+  border: 1.5px black solid;
+}
+section .container5 .left5 .butseem button:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 2.5px 2.5px 0 0 black;
+}
+section .container5 .left5 .butseem button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+section .container5 .left5 .butseem button a i {
+  margin-left: 10px;
+  rotate: 35deg;
+}
+section .container5 .right5 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+section .container5 .right5 .card51 {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+}
+section .container5 .right5 .card51 .titel5c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container5 .right5 .card51 .titel5c h2 {
+  font-size: 17px;
+}
+section .container5 .right5 .card51 p {
+  width: 75%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+section .container5 .right5 .card52 {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container5 .right5 .card52 h2 {
+  font-size: 17px;
+}
+section .container6 {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 70px;
+}
+section .container6 .isicont6 {
+  padding: 20px;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container6 .isicont6 h5 {
+  letter-spacing: 10px;
+  font-size: 11px;
+}
+section .container6 .isicont6 h1 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+section .container6 .isicont6 p {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+section .container6 .isicont6 .inp {
+  width: 30%;
+  margin-top: 30px;
+  display: flex;
+  gap: 8px;
+  border-bottom: 1.5px #6c6a6c solid;
+}
+section .container6 .isicont6 .inp input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+section .container6 .isicont6 .inp input::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+}
+section .container6 .isicont6 .inp h6 {
+  display: flex;
+  align-items: center;
+}
+section .container6 .isicont6 .inp h6 i {
+  margin-left: 8px;
+}
+section .container7 {
+  width: 100%;
+  padding: 20px 70px 40px 70px;
+  display: flex;
+}
+section .container7 .left7 {
+  width: 30%;
+}
+section .container7 .left7 .logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+section .container7 .left7 .logo img {
+  width: 5%;
+}
+section .container7 .left7 .logo h4 span {
+  color: #6c6a6c;
+}
+section .container7 .left7 .logo h4 span:nth-child(2) {
+  font-size: 10px;
+}
+section .container7 .left7 p {
+  width: 59%;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #6c6a6c;
+}
+section .container7 .left7 .ikonso {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+section .container7 .right7 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section .container7 .right7 .isifooter h3 {
+  font-size: 17px;
+}
+section .container7 .right7 .isifooter ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section .container7 .right7 .isifooter ul li {
+  list-style: none;
+  font-size: 14px;
+}
+section .container7 .right7 .isifooter ul li a {
+  text-decoration: none;
+  color: #716255;
+}
+section .container7 .right7 .isifooter ul li a i {
+  margin-right: 7px;
+}
+
+/*# sourceMappingURL=main.css.map */

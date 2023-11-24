@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  font-family: "Poppins", sans-serif;
+}
+section .container1 {
+  width: 100%;
+  padding: 20px 50px 0 50px;
+}
+section .container1 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container1 .nav .logo {
+  font-size: 12px;
+}
+section .container1 .nav .logo span {
+  color: #598fa7;
+}
+section .container1 .nav .bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .container1 .nav .bar .op {
+  display: flex;
+  align-items: center;
+}
+section .container1 .nav .bar .op select {
+  padding: 0 2px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1.8px white solid;
+}
+section .container1 .nav .bar a {
+  padding: 0 2px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  border-bottom: 1.8px white solid;
+  font-weight: bold;
+}
+section .container1 .nav .bar a:hover {
+  border-bottom: 1.8px #598fa7 solid;
+  color: #598fa7;
+}
+section .container1 .nav .iget {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+section .container1 .nav .iget .ikon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 13px;
+}
+section .container1 .nav .iget .but1 button {
+  padding: 4px;
+  background-color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+section .container1 .nav .iget .but1 button:hover {
+  background-color: transparent;
+}
+section .container1 .nav .iget .but1 button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12.5px;
+}
+section .container1 .nav .iget .but1 button a:hover {
+  color: #598fa7;
+}
+section .container1 .main {
+  display: flex;
+}
+section .container1 .main .left1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .container1 .main .left1 h1 {
+  width: 65%;
+  font-size: 35px;
+}
+section .container1 .main .left1 h1 span {
+  color: #598fa7;
+}
+section .container1 .main .left1 p {
+  width: 70%;
+  margin-top: 20px;
+  font-size: 15px;
+}
+section .container1 .main .left1 .butleft {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+section .container1 .main .left1 .butleft button {
+  width: 15%;
+  padding: 4px;
+  background-color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+section .container1 .main .left1 .butleft button:hover {
+  background-color: transparent;
+}
+section .container1 .main .left1 .butleft button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12.5px;
+}
+section .container1 .main .left1 .butleft button a:hover {
+  color: #598fa7;
+}
+section .container1 .main .right1 {
+  width: 50%;
+}
+section .container1 .main .right1 img {
+  width: 100%;
+}
+section .container2 {
+  width: 100%;
+  padding: 10px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container2 h1 {
+  font-size: 35px;
+}
+section .container2 p {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+section .container2 .isicard2 {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .container2 .isicard2 .icard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .container2 .isicard2 .icard2 .card2 {
+  width: 18%;
+  height: 52vh;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1.7px #dce3e4 solid;
+}
+section .container2 .isicard2 .icard2 .card2 .image2 {
+  width: 100%;
+  height: 22vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container2 .isicard2 .icard2 .card2 .image2 i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-radius: 50%;
+}
+section .container2 .isicard2 .icard2 .card2 .image2 img {
+  width: 55%;
+}
+section .container2 .isicard2 .icard2 .card2 .titelc2 h1 {
+  font-size: 14px;
+  text-align: center;
+}
+section .container2 .isicard2 .icard2 .card2 .descc2 {
+  margin-top: 3px;
+  color: #bababa;
+}
+section .container2 .isicard2 .icard2 .card2 .descc2 p {
+  width: 100%;
+  text-align: left;
+  font-size: 11px;
+}
+section .container2 .isicard2 .icard2 .card2 .range i {
+  color: #fdc32f;
+  font-size: 12px;
+}
+section .container2 .isicard2 .icard2 .card2 p {
+  width: 100%;
+  text-align: left;
+  margin-top: 0px;
+  font-size: 12px;
+  color: #bababa;
+}
+section .container2 .isicard2 .icard2 .card2 p span {
+  color: black;
+}
+section .container2 .isicard2 .icard2 .card2 .price {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container2 .isicard2 .icard2 .card2 .price h5 {
+  color: #598fa7;
+  font-size: 14px;
+}
+section .container2 .isicard2 .icard2 .card2 .price button {
+  padding: 5px;
+  background-color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+section .container2 .isicard2 .icard2 .card2 .price button i {
+  margin-left: 3px;
+}
+section .container2 .isicard2 .icard2 .card2:hover .image2 i {
+  background-color: #598fa7;
+  color: white;
+}
+section .container2 .semor {
+  margin-top: 30px;
+}
+section .container2 .semor button {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1.5px #598fa7 solid;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #598fa7;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+section .container2 .semor button i {
+  margin-left: 3px;
+}
+section .container3 {
+  margin-top: 40px;
+  padding: 30px;
+  background-image: url(../../public/assets/image/bg3.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container3 h1 {
+  font-size: 35px;
+}
+section .container3 p {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+section .container3 .barbut {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+section .container3 .barbut .card3 {
+  width: 13%;
+  height: 12vh;
+  padding: 7px;
+  display: flex;
+  border: 1.8px #598fa7 solid;
+  border-radius: 50px;
+  background-color: white;
+}
+section .container3 .barbut .card3 .image3 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container3 .barbut .card3 .image3 img {
+  width: 85%;
+}
+section .container3 .barbut .card3 .desc3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section .container3 .barbut .card3 .desc3 h4 {
+  font-size: 13px;
+}
+section .container3 .barbut .card3 .desc3 p {
+  margin-top: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+}
+section .container3 .barbut .card3:nth-child(7) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container3 .barbut .card3:nth-child(7) .desc3 {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 h1 {
+  font-size: 35px;
+}
+section .container4 p {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+section .container4 .icard2 {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .container4 .icard2 .card2 {
+  width: 18%;
+  height: 52vh;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1.7px #dce3e4 solid;
+}
+section .container4 .icard2 .card2 .image2 {
+  width: 100%;
+  height: 22vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 .icard2 .card2 .image2 i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-radius: 50%;
+}
+section .container4 .icard2 .card2 .image2 img {
+  width: 55%;
+}
+section .container4 .icard2 .card2 .titelc2 h1 {
+  font-size: 13px;
+  text-align: center;
+}
+section .container4 .icard2 .card2 .descc2 {
+  margin-top: 3px;
+  color: #bababa;
+}
+section .container4 .icard2 .card2 .descc2 p {
+  width: 100%;
+  text-align: left;
+  font-size: 11px;
+}
+section .container4 .icard2 .card2 .range i {
+  color: #fdc32f;
+  font-size: 12px;
+}
+section .container4 .icard2 .card2 p {
+  width: 100%;
+  text-align: left;
+  margin-top: 0px;
+  font-size: 12px;
+  color: #bababa;
+}
+section .container4 .icard2 .card2 p span {
+  color: black;
+}
+section .container4 .icard2 .card2 .price {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container4 .icard2 .card2 .price h5 {
+  color: #598fa7;
+  font-size: 14px;
+}
+section .container4 .icard2 .card2 .price button {
+  padding: 5px;
+  background-color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+section .container4 .icard2 .card2 .price button i {
+  margin-left: 3px;
+}
+section .container4 .icard2 .card2:hover .image2 i {
+  background-color: #598fa7;
+  color: white;
+}
+section .container4 .semor {
+  margin-top: 30px;
+}
+section .container4 .semor button {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1.5px #598fa7 solid;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #598fa7;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+section .container4 .semor button i {
+  margin-left: 3px;
+}
+section .container5 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container5 h1 {
+  font-size: 35px;
+}
+section .container5 p {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+section .container5 .isic5 {
+  margin-top: 20px;
+  width: 100%;
+  padding: 30px 50px;
+  background-image: url(../../public/assets/image/bg3.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+section .container5 .isic5 .image5 {
+  width: 35%;
+}
+section .container5 .isic5 .image5 img {
+  width: 100%;
+}
+section .container5 .isic5 .card5 {
+  width: 35%;
+  padding: 15px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+}
+section .container5 .isic5 .card5 .self {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container5 .isic5 .card5 .self .user i {
+  padding: 14px;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  border: none;
+  border-radius: 10px;
+}
+section .container5 .isic5 .card5 .self .name {
+  margin-left: -85px;
+}
+section .container5 .isic5 .card5 .self .name p {
+  width: 100%;
+  margin-top: 0;
+  font-size: 12px;
+}
+section .container5 .isic5 .card5 .self .ripiu .range i {
+  color: #fdc32f;
+  font-size: 12px;
+}
+section .container5 .isic5 .card5 .self .ripiu p {
+  width: 100%;
+  text-align: left;
+  margin-top: 0px;
+  font-size: 12px;
+  color: #bababa;
+}
+section .container5 .isic5 .card5 .self .ripiu p span {
+  color: black;
+}
+section .container5 .isic5 .card5 .desc5 {
+  margin-top: -3px;
+}
+section .container5 .isic5 .card5 .desc5 p {
+  width: 100%;
+  color: #bababa;
+  font-size: 13px;
+}
+section .container5 .isic5 .but5 {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+section .container5 .isic5 .but5 button {
+  padding: 10px;
+  background-color: #598fa7;
+  border: 1.5px #598fa7 solid;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+section .container5 .isic5 .but5 button i {
+  margin-left: 3px;
+  font-size: 13px;
+}
+section .container5 .isic5 .but5 button:hover {
+  background-color: white;
+  color: #598fa7;
+}
+section .container6 {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .container6 h1 {
+  font-size: 35px;
+}
+section .container6 p {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+section .container6 .isiy {
+  width: 100%;
+  padding: 20px 50px;
+  margin-top: 20px;
+}
+section .container6 .isiy .dlm {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+section .container6 .isiy .dlm img {
+  width: 100%;
+  height: 230px;
+  border-radius: 20px;
+}
+section .container6 .isiy .dlm .isiin {
+  width: 100%;
+  height: 230px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 20px;
+}
+section .container6 .isiy .dlm .isiin h1 {
+  width: 70%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+section .container6 .isiy .dlm .isiin .input {
+  width: 70%;
+  padding: 7px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
+section .container6 .isiy .dlm .isiin .input input {
+  width: 67%;
+  padding: 2px;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+section .container6 .isiy .dlm .isiin .input button {
+  padding: 3px 25px;
+  background-color: #fdc32f;
+  border: 1.5px #fdc32f solid;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+section .container7 {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  align-items: flex-start;
+}
+section .container7 .left7 {
+  width: 50%;
+}
+section .container7 .left7 .logo {
+  font-size: 12px;
+}
+section .container7 .left7 .logo span {
+  color: #598fa7;
+}
+section .container7 .left7 .desc7 {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #bababa;
+}
+section .container7 .left7 .desc7 a {
+  color: #bababa;
+}
+section .container7 .left7 .work {
+  margin-top: 20px;
+}
+section .container7 .left7 .work h3 {
+  font-size: 14px;
+}
+section .container7 .left7 .work .buka {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 12px;
+  color: #bababa;
+}
+section .container7 .left7 .our {
+  margin-top: 20px;
+}
+section .container7 .left7 .our h3 {
+  font-size: 14px;
+}
+section .container7 .left7 .our p {
+  margin-top: 10px;
+  color: #bababa;
+  font-size: 12px;
+}
+section .container7 .right7 {
+  width: 50%;
+}
+section .container7 .right7 .atas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section .container7 .right7 .atas .list h3 {
+  font-size: 14px;
+}
+section .container7 .right7 .atas .list ul {
+  margin-top: 10px;
+  list-style: none;
+}
+section .container7 .right7 .atas .list ul li {
+  font-size: 12px;
+  margin-top: 3px;
+}
+section .container7 .right7 .atas .list ul li:hover {
+  color: #598fa7;
+}
+section .container7 .right7 .atas .list:nth-child(3) ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .container7 .right7 .atas .list:nth-child(3) ul li i {
+  font-size: 14px;
+  color: #598fa7;
+}
+section .container7 .right7 .bawah {
+  margin-top: 20px;
+  width: 100%;
+}
+section .container7 .right7 .bawah img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

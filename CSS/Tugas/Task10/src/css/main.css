@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo+2:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #f4e6d8;
+}
+section .container1 {
+  width: 100%;
+  height: 100vh;
+}
+section .container1 .nav {
+  padding: 20px 80px 20px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container1 .nav .sofa {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #716255;
+}
+section .container1 .nav .bar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+section .container1 .nav .bar a {
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  color: #716255;
+  text-decoration: none;
+}
+section .container1 .nav .bar a:hover {
+  font-weight: bold;
+}
+section .container1 .nav .ikon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #716255;
+}
+section .container1 .main1 {
+  width: 100%;
+  background-size: cover;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  position: relative;
+}
+section .container1 .main1 img {
+  width: 90%;
+  height: 110vh;
+  margin-left: 10%;
+}
+section .container1 .main1 .text {
+  margin-top: 68px;
+  padding-left: 50px;
+  position: absolute;
+  top: 0;
+}
+section .container1 .main1 .text .titel {
+  font-size: 50px;
+}
+section .container1 .main1 .text .desc {
+  margin-top: 20px;
+  width: 47%;
+  font-size: 20px;
+}
+section .container1 .main1 .text .buton {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section .container1 .main1 .text .buton button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+}
+section .container1 .main1 .text .buton button a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+}
+section .container1 .main1 .text .buton button:nth-child(1) {
+  background-color: #8da7c3;
+}
+section .container1 .main1 .text .buton button:nth-child(2) {
+  background-color: #dbaf79;
+}
+section .container2 {
+  width: 100%;
+  margin-top: 80px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+}
+section .container2 .titel2 {
+  font-size: 30px;
+}
+section .container2 .deals {
+  margin-top: 40px;
+  padding: 18px 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efdecc;
+  border-radius: 5px;
+}
+section .container2 .deals .isi {
+  width: 19%;
+}
+section .container2 .deals .isi i {
+  font-size: 43px;
+}
+section .container2 .deals .isi h2 {
+  margin-top: 20px;
+  font-size: 19.3px;
+}
+section .container2 .deals .isi p {
+  margin-top: 18px;
+  font-size: 19px;
+}
+section .container3 {
+  width: 100%;
+  height: 180vh;
+  padding: 20px 50px;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container3 .titel3 {
+  font-size: 30px;
+}
+section .container3 .content3 {
+  margin: 100px 40px 40px 40px;
+  padding: 40px 50px;
+  background-color: #f0dbc5;
+  border-radius: 15px;
+}
+section .container3 .content3 .chair1 {
+  display: flex;
+  justify-content: space-between;
+}
+section .container3 .content3 .chair1 .desc3 {
+  width: 44%;
+  font-size: 19px;
+}
+section .container3 .content3 .chair1 .desc3 button {
+  margin-top: 20px;
+  margin-left: 13px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #8da7c3;
+}
+section .container3 .content3 .chair1 .imagechair {
+  background-color: #d9ae84;
+  position: relative;
+  width: 37%;
+  height: 80vh;
+  margin-right: -90px;
+  margin-top: -130px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 180px;
+  border-top-left-radius: 180px;
+}
+section .container3 .content3 .chair1 .imagechair img {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin-left: -100px;
+}
+section .container3 .content3 .chair2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+section .container3 .content3 .chair2 .imagechair {
+  background-color: #d9ae84;
+  position: relative;
+  width: 37%;
+  height: 80vh;
+  margin-left: -90px;
+  margin-bottom: -100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 180px;
+  border-top-left-radius: 180px;
+}
+section .container3 .content3 .chair2 .imagechair img {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 70px;
+  right: 0;
+  width: 90%;
+  margin-right: -100px;
+}
+section .container3 .content3 .chair2 .desc3 {
+  width: 44%;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+section .container3 .content3 .chair2 .desc3 button {
+  margin-top: 20px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #dbaf79;
+}
+section .container4 {
+  width: 100%;
+  padding: 10px 50px 30px 50px;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container4 .titel4 {
+  font-size: 30px;
+}
+section .container4 .chairimg {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container4 .chairimg .imgkecil {
+  width: 30%;
+  display: flex;
+  margin-bottom: 80px;
+}
+section .container4 .chairimg .imgkecil img {
+  width: 75%;
+}
+section .container4 .chairimg .imgkecil:nth-child(5) {
+  display: flex;
+  justify-content: flex-end;
+}
+section .container4 .chairimg .btn {
+  margin-bottom: 90px;
+}
+section .container4 .chairimg .btn button {
+  width: 45px;
+  aspect-ratio: 1/1;
+  background-color: #d3b28c;
+  border-radius: 50%;
+  border: none;
+}
+section .container4 .chairimg .btn button i {
+  font-size: 14px;
+}
+section .container4 .chairimg .imgbesar {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container4 .chairimg .imgbesar img {
+  width: 90%;
+}
+section .container5 {
+  width: 100%;
+  padding: 40px 50px 30px 50px;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .container5 .titel5 {
+  font-size: 30px;
+}
+section .container5 .btnbar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+section .container5 .btnbar button {
+  padding: 10px 45px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #eacab2;
+}
+section .container5 .btnbar button:hover {
+  background-color: #ba9a76;
+}
+section .container5 .cardchair {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .container5 .cardchair .cardbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+section .container5 .cardchair .cardbar .card {
+  width: 25%;
+}
+section .container5 .cardchair .cardbar .card .imgcontent {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ead8c8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+section .container5 .cardchair .cardbar .card .imgcontent img {
+  width: 40%;
+}
+section .container5 .cardchair .cardbar .card .descontent {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0bf9d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+section .container5 .cardchair .cardbar .card .descontent .titelc {
+  font-size: 14px;
+}
+section .container5 .cardchair .cardbar .card .descontent .ikonplus {
+  width: 25px;
+  aspect-ratio: 1/1;
+  border: none;
+  border-radius: 50%;
+  background-color: #716255;
+  color: #eacab2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container6 {
+  width: 100%;
+  padding: 65px 50px 100px 50px;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  display: flex;
+  align-items: center;
+}
+section .container6 .imgenam {
+  width: 40%;
+  height: 75vh;
+  border-radius: 50%;
+  background-color: #d5b598;
+}
+section .container6 .imgenam img {
+  width: 100%;
+}
+section .container6 .descenam {
+  width: 60%;
+  padding: 60px 60px 30px 90px;
+}
+section .container6 .descenam .titel6 {
+  width: 70%;
+  font-size: 30px;
+}
+section .container6 .descenam .desc6 {
+  width: 87%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+section .container6 .descenam .btn6 {
+  margin-top: 30px;
+}
+section .container6 .descenam .btn6 button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #8da7c3;
+}
+section .footer {
+  width: 100%;
+  padding: 50px 80px;
+  font-family: "Exo 2", sans-serif;
+  color: #716255;
+  background-color: #d7ad82;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .footer .isifooter h3 {
+  font-size: 25px;
+}
+section .footer .isifooter ul {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section .footer .isifooter ul li {
+  list-style: none;
+  font-size: 19px;
+}
+section .footer .isifooter ul li a {
+  text-decoration: none;
+  color: #716255;
+}
+section .footer .isifooter ul li a i {
+  margin-right: 7px;
+}
+
+/*# sourceMappingURL=main.css.map */

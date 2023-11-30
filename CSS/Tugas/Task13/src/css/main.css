@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  background-color: black;
+  color: white;
+}
+section nav {
+  width: 100%;
+  padding: 17px 22px 1px 21px;
+}
+section nav .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+section nav .navbar .leftnav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .leftnav {
+    width: 70%;
+  }
+}
+section nav .navbar .leftnav .home {
+  flex-grow: 1;
+  padding: 3px;
+  border: 1px white solid;
+  border-radius: 20px;
+}
+section nav .navbar .leftnav .home button {
+  width: 100%;
+  padding: 4.7px 4px 4.7px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 18px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+section nav .navbar .leftnav .home button i {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+section nav .navbar .leftnav .home:hover button {
+  background-color: white;
+  color: black;
+}
+section nav .navbar .leftnav .home:hover button i {
+  background-color: black;
+  color: white;
+}
+section nav .navbar .leftnav .porca {
+  flex-grow: 2;
+  padding: 2.5px 3px 3px 3px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: #262626;
+  border: 1px white solid;
+  border-radius: 20px;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .leftnav .porca {
+    display: flex;
+  }
+}
+section nav .navbar .leftnav .porca .kuning {
+  width: 50%;
+  padding: 3px 3px 3px 10px;
+  border-radius: 18px;
+  border: 1px white solid;
+  background-color: #262626;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section nav .navbar .leftnav .porca .kuning p {
+  padding: 2px 18.5px;
+  background-color: #dfb921;
+  color: black;
+  border-radius: 15px;
+}
+section nav .navbar .leftnav .porca .kuning:hover {
+  background-color: white;
+  color: black;
+}
+section nav .navbar .leftnav .porca .merah {
+  width: 50%;
+  padding: 3px 3px 3px 10px;
+  border-radius: 17px;
+  border: 1px white solid;
+  background-color: #262626;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section nav .navbar .leftnav .porca .merah p {
+  padding: 2px 20px;
+  background-color: #c54444;
+  color: white;
+  border-radius: 15px;
+}
+section nav .navbar .leftnav .porca .merah:hover {
+  background-color: white;
+  color: black;
+}
+section nav .navbar .rightnav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+section nav .navbar .rightnav .sosmed {
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  section nav .navbar .rightnav .sosmed {
+    display: block;
+  }
+}
+section nav .navbar .rightnav .sosmed ul {
+  display: flex;
+  gap: 2px;
+  list-style-type: none;
+}
+section nav .navbar .rightnav .sosmed ul li {
+  width: 41.5px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 50%;
+}
+section nav .navbar .rightnav .sosmed ul li i {
+  font-size: 14px;
+}
+section nav .navbar .rightnav .sosmed ul li:hover {
+  background-color: white;
+  color: black;
+}
+section nav .navbar .menu {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px white solid;
+  padding: 3px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .menu {
+    display: none;
+  }
+}
+section nav .navbar .menu button {
+  padding: 4.7px 10px 4.7px 10px;
+  border-radius: 18px;
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+section nav .navbar .menu button:hover {
+  background-color: white;
+  color: black;
+}
+section main {
+  width: 100%;
+  padding: 17px 22px 5.5px 21px;
+  font-family: "Inter", sans-serif;
+}
+section main .content1 {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #839292;
+  border-radius: 30px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+section main .content1 .left {
+  margin-top: 62px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+section main .content1 .left .jnico p {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .left .jnico p {
+    font-size: 95px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  section main .content1 .left .jnico p {
+    font-size: 45px;
+  }
+}
+section main .content1 .left .jnico p::after {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  margin-top: 8px;
+  right: 0;
+  position: relative;
+  background-color: white;
+}
+section main .content1 .left .art {
+  width: 70%;
+  margin-top: 20px;
+  gap: 19px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .left .art {
+    display: flex;
+    align-items: center;
+  }
+}
+section main .content1 .left .art button {
+  padding: 8px 11px 7.5px 11px;
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  border-radius: 25px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 640px) {
+  section main .content1 .left .art button {
+    width: 56%;
+  }
+}
+section main .content1 .left .art button i {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.228);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section main .content1 .left .art p {
+  font-size: 15.2px;
+}
+section main .content1 .right {
+  margin-top: 47px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25.5px;
+}
+section main .content1 .right img {
+  width: 130px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+section main .content1 .right button {
+  padding: 5px 23px;
+  background-color: rgba(255, 255, 255, 0.228);
+  color: white;
+  border-radius: 25px;
+  border: transparent;
+  font-size: 14px;
+}
+section main .content2 {
+  margin-top: 28.5px;
+  padding: 0 4px;
+  display: flex;
+  align-items: flex-start;
+}
+section main .content2 .buttone {
+  width: 50%;
+}
+section main .content2 .buttone button {
+  padding: 1px 5px;
+  margin-right: 2px;
+  background-color: transparent;
+  color: #6d6c6c;
+  border: 1px #6d6c6c solid;
+  border-radius: 18px;
+  font-size: 18.7px;
+}
+section main .content2 .metro {
+  width: 50%;
+  padding-left: 20px;
+  font-size: 21.9px;
+}
+
+/*# sourceMappingURL=main.css.map */

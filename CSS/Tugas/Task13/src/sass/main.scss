@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+// Responsive Breakpoint
+// Responsive Breakpoint
+$media-sm: 640px;
+$media-md: 768px;
+$media-lg: 1024px;
+$media-xl: 1280px;
+
+// Font Variable
+$caveat: "Caveat", cursive;
+$poppins: "Poppins", sans-serif;
+$onest: "Onest", sans-serif;
+
+section {
+    background-color: black;
+    color: white;
+
+    nav {
+        width: 100%;
+        padding: 17px 22px 1px 21px;
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+
+            .leftnav {
+                width: 100%;
+                @media screen and (min-width: $media-lg){
+                    width: 70%;
+                }
+                display: flex;
+                align-items: center;
+                gap: 6px;
+
+                .home {
+                    flex-grow: 1;
+                    padding: 3px;
+                    border: 1px white solid;
+                    border-radius: 20px;
+    
+                    button {
+                        width: 100%;
+                        padding: 4.7px 4px 4.7px 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border: 1px white solid;
+                        border-radius: 18px;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 20px;
+    
+                        i {
+                            width: 24px;
+                            height: 24px;
+                            padding: 5px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 13px;
+                            background-color: white;
+                            color: black;
+                            border-radius: 50%;
+                        }
+    
+                    }
+    
+                    &:hover {
+                        button {
+                            background-color: white;
+                            color: black;
+    
+                            i {
+                                background-color: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+    
+                .porca {
+                    flex-grow: 2;
+                    padding: 2.5px 3px 3px 3px;
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2px;
+                    background-color: #262626;
+                    border: 1px white solid;
+                    border-radius: 20px;
+                    
+
+                    @media screen and (min-width: $media-lg) {
+                        display: flex;
+                    }  
+    
+                    .kuning {
+                        width: 50%;
+                        padding: 3px 3px 3px 10px;
+                        border-radius: 18px;
+                        border: 1px white solid;
+                        background-color: #262626;
+                        color: white;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+    
+                        p {
+                            padding: 2px 18.5px;
+                            background-color: #dfb921;
+                            color: black;
+                            border-radius: 15px;
+                        }
+    
+                        &:hover {
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+    
+                    .merah {
+                        width: 50%;
+                        padding: 3px 3px 3px 10px;
+                        border-radius: 17px;
+                        border: 1px white solid;
+                        background-color: #262626;
+                        color: white;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+    
+                        p {
+                            padding: 2px 20px;
+                            background-color: #c54444;
+                            color: white;
+                            border-radius: 15px;
+                        }
+    
+                        &:hover {
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .rightnav {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .sosmed {
+                    display: flex;
+                    justify-content: flex-end;
+                    display: none;
+
+                    @media only screen and (min-width: $media-lg) {
+                        display: block;
+                    }
+
+                    ul {
+                        display: flex;
+                        gap: 2px;
+                        list-style-type: none;
+    
+                        li {
+                            width: 41.5px;
+                            aspect-ratio: 1/1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px white solid;
+                            border-radius: 50%;
+    
+                            i {
+                                font-size: 14px;
+                            }
+    
+                            &:hover {
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+    
+            }
+
+            .menu {
+                display: flex;
+                justify-content: flex-end;
+                border: 1px white solid;
+                padding: 3px;
+                border-radius: 20px;
+
+                @media screen and (min-width: $media-lg) {
+                    display: none;
+                }   
+
+                button {
+                    padding: 4.7px 10px 4.7px 10px;
+                    border-radius: 18px;
+                    border: 1px white solid;
+                    background-color: transparent;
+                    color: white;
+                    font-size: 20px;
+
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        padding: 17px 22px 5.5px 21px;
+        font-family: 'Inter', sans-serif;
+
+        .content1 {
+            width: 100%;
+            @media screen and (min-width: $media-lg){
+                flex-direction: row;
+                align-items: flex-end;
+                
+            }
+
+            padding: 30px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #839292;
+            border-radius: 30px;
+
+            .left {
+                margin-top: 62px;
+                width: 70%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .jnico {
+                    p {
+                        @media screen and (min-width: $media-lg) {
+                            font-size: 95px;
+                        }
+                        @media screen and (min-width: $media-sm) and (max-width: $media-lg) {
+                            font-size: 45px;
+                        }
+
+
+                        display: flex;
+                        align-items: center;
+                        gap: 9px;
+                        font-size: 25px;
+                        font-family: 'Inter', sans-serif;
+
+                        &::after {
+                            content: "";
+                            display: inline-block;
+                            width: 60px;
+                            height: 5px;
+                            margin-top: 8px;
+                            right: 0;
+                            position: relative;
+                            background-color: white;
+                        }
+                    }
+                }
+
+                .art {
+                    width: 70%;
+                    margin-top: 20px;
+                    gap: 19px;
+                    @media screen and (min-width: $media-lg) {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    button {
+                        @media screen and (min-width: $media-sm) {
+                            width: 56%;
+                        }
+                        
+                        padding: 8px 11px 7.5px 11px;
+                        background-color: transparent;
+                        color: white;
+                        border: 1px white solid;
+                        border-radius: 25px;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        i {
+                            width: 25px;
+                            height: 25px;
+                            font-size: 15px;
+                            background-color: rgba(255, 255, 255, 0.228);
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+
+                    p {
+                        @media screen and (min-width: $media-lg) {
+                            
+                        }
+                        font-size: 15.2px;
+                    }
+                }
+            }
+
+            .right {
+                margin-top: 47px;
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 25.5px;
+
+                img {
+                    width: 130px;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                }
+
+                button {
+                    padding: 5px 23px;
+                    background-color: rgba(255, 255, 255, 0.228);
+                    color: white;
+                    border-radius: 25px;
+                    border: transparent;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .content2 {
+            margin-top: 28.5px;
+            padding: 0 4px;
+            display: flex;
+            align-items: flex-start;
+
+            .buttone {
+                width: 50%;
+
+                button {
+                    padding: 1px 5px;
+                    margin-right: 2px;
+                    background-color: transparent;
+                    color: #6d6c6c;
+                    border: 1px #6d6c6c solid;
+                    border-radius: 18px;
+                    font-size: 18.7px;
+                }
+            }
+
+            .metro {
+                width: 50%;
+                padding-left: 20px;
+                font-size: 21.9px;
+            }
+        }
+    }
+}
+

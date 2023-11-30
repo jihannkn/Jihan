@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#container ul {
+    border: 3px black solid;
+    padding: 10px;
+}
+
+#container li {
+    margin-left: 15px;
+}

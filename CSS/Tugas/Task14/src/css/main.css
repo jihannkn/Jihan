@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  background-color: #101322;
+}
+section nav {
+  padding: 15px 15px 0 15px;
+}
+section nav .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+section nav .navbar .navleft {
+  width: 20%;
+  padding: 10px 21px 15px 21px;
+  display: flex;
+  justify-content: center;
+  background-color: #85c7d3;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .navleft {
+    width: 8%;
+    padding: 10px 38px 15px 38px;
+  }
+}
+section nav .navbar .navleft div {
+  width: 22px;
+  padding: 2px;
+  border: 4px black solid;
+  border-radius: 10px;
+  background-color: transparent;
+}
+@media screen and (min-width: 640px) {
+  section nav .navbar .navleft div {
+    width: 100%;
+  }
+}
+section nav .navbar .navright {
+  width: 92%;
+  margin-right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  background-color: #85c7d3;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .navright {
+    margin-right: 30px;
+  }
+}
+section nav .navbar .navright .wrap {
+  width: 100%;
+  padding: 9px 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  background-color: #101322;
+  border-bottom-left-radius: 13px;
+}
+section nav .navbar .navright .wrap ul li {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+@media screen and (min-width: 1024px) {
+  section nav .navbar .navright .wrap ul li {
+    display: flex;
+  }
+}
+section nav .navbar .navright .wrap ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+section nav .navbar .navright .log a {
+  padding: 3px 20px;
+  background-color: white;
+  border-radius: 13px;
+  border: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+section main {
+  width: 100%;
+  padding: 0 15px 10px 15px;
+}
+section main .content1 {
+  flex-direction: column-reverse;
+  background-color: #85c7d3;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+section main .content1 .leftcontent {
+  width: 100%;
+  padding: 40px 0 25px 30px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .leftcontent {
+    width: 50%;
+  }
+}
+section main .content1 .leftcontent .title h1 {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .leftcontent .title h1 {
+    margin-left: 10px;
+    width: 75%;
+  }
+}
+section main .content1 .leftcontent .desc {
+  margin-top: 10px;
+}
+section main .content1 .leftcontent .desc p {
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .leftcontent .desc p {
+    width: 47%;
+  }
+}
+section main .content1 .leftcontent .buttoncon {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+section main .content1 .leftcontent .buttoncon button {
+  padding: 7px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 17px;
+}
+section main .content1 .leftcontent .buttoncon button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+section main .content1 .leftcontent .buttoncon i {
+  width: 34px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+section main .content1 .rightcontent {
+  width: 100%;
+  display: flex;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .rightcontent {
+    width: 50%;
+  }
+}
+section main .content1 .rightcontent img:nth-child(1) {
+  width: 80%;
+  margin-left: 20px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .rightcontent img:nth-child(1) {
+    margin-left: 120px;
+  }
+}
+section main .content1 .rightcontent img:nth-child(2) {
+  width: 21%;
+  height: 10vh;
+  margin-left: -60px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1024px) {
+  section main .content1 .rightcontent img:nth-child(2) {
+    margin-left: -130px;
+    width: 15%;
+    height: 15vh;
+  }
+}
+section header {
+  padding: 0 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  section header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+section header .contenth1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: #d9bda8;
+  border-radius: 13px;
+}
+@media screen and (min-width: 1024px) {
+  section header .contenth1 {
+    width: 33%;
+  }
+}
+section header .contenth1 img {
+  margin-top: 30px;
+  width: 98%;
+}
+section header .contenth1 button {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: -40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.701);
+}
+section header .contenth1 button i {
+  rotate: 45deg;
+}
+section header .contenth2 {
+  width: 100%;
+  padding: 25px;
+  border-radius: 13px;
+  background-color: #dab7cb;
+}
+@media screen and (min-width: 1024px) {
+  section header .contenth2 {
+    width: 33%;
+  }
+}
+section header .contenth2 .navco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section header .contenth2 .navco .oval {
+  width: 19px;
+  padding: 2px;
+  border: 4px black solid;
+  border-radius: 10px;
+  background-color: transparent;
+}
+section header .contenth2 .navco .circle i {
+  font-size: 8px;
+}
+section header .contenth2 .descco {
+  margin-top: 35px;
+}
+section header .contenth2 .descco p {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+section header .contenth2 .buttoncon {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+section header .contenth2 .buttoncon button {
+  padding: 7px 20px;
+  background-color: transparent;
+  border: 1.4px black solid;
+  border-radius: 20px;
+}
+section header .contenth2 .buttoncon button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+section header .contenth2 .buttoncon i {
+  width: 34px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+section header .contenth2 .user {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+section header .contenth2 .user .profil {
+  display: flex;
+  align-items: center;
+}
+section header .contenth2 .user .profil i {
+  margin-left: -9px;
+  width: 34px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+section header .contenth2 .user .new {
+  font-family: "Poppins", sans-serif;
+}
+section header .contenth2 .user .new h3 {
+  font-size: 24px;
+}
+section header .contenth2 .user .new p {
+  font-size: 14px;
+}
+section header .contenth3 {
+  width: 100%;
+  border-radius: 13px;
+  background-color: #b7bffe;
+}
+@media screen and (min-width: 1024px) {
+  section header .contenth3 {
+    width: 33%;
+  }
+}
+section header .contenth3 .ikon {
+  padding: 1px;
+}
+section header .contenth3 .ikon .pojok {
+  width: 12%;
+  padding: 15px;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background-color: #101322;
+  color: white;
+}
+section header .contenth3 .isi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section header .contenth3 .isi .titelisi h1 {
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+}
+section header .contenth3 .isi .buttone {
+  margin-top: 40px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section header .contenth3 .isi .buttone .doble {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+section header .contenth3 .isi .buttone .doble button {
+  width: 50%;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+section header .contenth3 .isi .buttone .doble button:nth-child(1) {
+  border: 1.5px #101322 solid;
+  background-color: transparent;
+}
+section header .contenth3 .isi .buttone .doble button:nth-child(2) {
+  border: 1.5px #101322 solid;
+  background-color: #101322;
+  color: #b7bffe;
+}
+section header .contenth3 .isi .buttone .doble1 {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+section header .contenth3 .isi .buttone .doble1 button {
+  width: 50%;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+section header .contenth3 .isi .buttone .doble1 button:nth-child(1) {
+  border: 1.5px #101322 solid;
+  background-color: #101322;
+  color: #b7bffe;
+}
+section header .contenth3 .isi .buttone .doble1 button:nth-child(2) {
+  border: 1.5px #101322 solid;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=main.css.map */

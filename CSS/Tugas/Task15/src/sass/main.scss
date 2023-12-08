@@ -1,0 +1,840 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+// Responsive Breakpoint
+// Responsive Breakpoint
+$media-sm: 640px;
+$media-md: 768px;
+$media-lg: 1024px;
+$media-xl: 1280px;
+
+// Font Variable
+$caveat: "Caveat", cursive;
+$poppins: "Poppins", sans-serif;
+$onest: "Onest", sans-serif;
+
+section {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #f1f4fc;
+
+    nav {
+        width: 100%;
+        padding: 3px;
+        background-color: #12182b;
+        border-radius: 13px;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+
+            .leftnav {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                .white {
+                    button {
+                        padding: 7.5px 9px;
+                        background-color: white;
+                        color: #12182b;
+                        border: 1.5px white solid;
+                        border-radius: 13px;
+
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .tiga {
+                    @media screen and (min-width: $media-lg){
+                        display: block;
+                    }
+                    display: none;
+                    button {
+                        padding: 7px 18px;
+                        background-color: transparent;
+                        border: 1.2px white solid;
+                        border-radius: 13px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: $poppins;
+                            font-size: 12px;
+                        }
+                        &:hover {
+                            background-color: white;
+                            a {
+                                color: #12182b;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rightnav {
+                @media screen and (min-width: $media-lg){
+                    width: 50%;
+                }
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 4px;
+
+                .empat {
+                    @media screen and (min-width: $media-lg){
+                        display: block;
+                    }
+                    display: none;
+                    button {
+                        padding: 7px 10px;
+                        background-color: transparent;
+                        border: 1.2px white solid;
+                        border-radius: 13px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: $poppins;
+                            font-size: 12px;
+                        }
+
+                        &:nth-child(4) {
+                            padding: 7px 18px;
+                            background-color: #2a3041;
+                        }
+                        &:hover {
+                            background-color: white;
+                            a {
+                                color: #12182b;
+                            }
+                        }
+                    }
+                }
+
+                .menu {
+                    width: 100%;
+                    @media screen and (min-width: $media-lg){
+                        display: none;
+                    }
+                    display: block;
+                    button {
+                        @media screen and (min-width: $media-lg){
+                            padding: 7px 18px;
+                        }
+                        width: 100%;
+                        padding: 7px 18px;
+                        background-color: transparent;
+                        border: 1.2px white solid;
+                        border-radius: 13px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: $poppins;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        @media screen and (min-width: $media-lg){
+            display: flex;
+            flex-direction: row;
+            padding: 55px;
+        }
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .leftmain {
+            @media screen and (min-width: $media-lg){
+                width: 50%;
+            }
+            width: 100%;
+            padding-top: 35px;
+
+            .butyo {
+                button {
+                    padding: 2px 18px;
+                    background-color: white;
+                    border: none;
+                    border-radius: 13px;
+                    font-family: $poppins;
+                    font-size: 9px;
+                    font-weight: bold;
+                }
+            }
+
+            .titel {
+                margin-top: 15px;
+                h1 {
+                    font-family: $poppins;
+                    font-size: 40px;
+                }
+            }
+
+            .desc {
+                width: 90%;
+                margin-top: 15px;
+                p {
+                    font-family: $poppins;
+                    font-size: 12px;
+                    u {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .getbut {
+                margin-top: 30px;
+                button {
+                    @media screen and (min-width: $media-lg){
+                        width: 35%;
+                    }
+                    width: 100%;
+                    padding: 7px 30px;
+                    background-color: #12182b;
+                    border: 1.2px #12182b solid;
+                    border-radius: 13px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: $poppins;
+                        font-size: 12px;
+
+                        span {
+                            margin-left: 7px;
+                            i {
+                                width: 15px;
+                                height: 15px;
+                                padding: 3px;
+                                border: 1.2px white solid;
+                                border-radius: 50%;
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .payment {
+                display: flex;
+                gap: 20px;
+                margin-top: 40px;
+                width: 100%;
+
+                .pemen {
+                    width: 50%;
+                    .ctg {
+                        display: flex;
+                        align-items: center;
+                        gap: 7px;
+
+                        i {
+                            color: #33c780;
+                        }
+
+                        .line {
+                            width: 80%;
+                            height: 0.5vh;
+                            background: rgb(51,199,128);
+                            background: linear-gradient(90deg, rgba(51,199,128,1) 0%, rgba(223,239,240,1) 50%, rgba(235,242,248,1) 100%);
+                        }
+                    }
+
+                    .titelpay {
+                        margin-top: 20px;
+                        h3 {
+                            font-family: $poppins;
+                            font-size: 15px;
+                        }
+                    }
+
+                    .descpay {
+                        margin-top: 20px;
+                        p {
+                            font-family: $poppins;
+                            font-size: 13px;
+
+                            u {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        display: none;
+                        @media screen and (min-width: $media-lg){
+                            display: block;
+                        }
+                    }
+                    &:nth-child(2) {
+                        width: 100%;
+                        @media screen and (min-width: $media-lg){
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rightmain {
+            width: 100%;
+            @media screen and (min-width: $media-lg){
+                width: 50%;
+            }
+            padding-left: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            @media screen and (min-width: $media-lg){
+                padding-left: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                gap: 10px;
+            }
+
+            .saturight {
+                width: 100%;
+                @media screen and (min-width: $media-lg){
+                    width: 45%;
+                }
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .feriv {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .check {
+                        z-index: 99;
+                        i{
+                            height: 30px;
+                            aspect-ratio: 1/1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            background-color: #33c780;
+                            color: white;
+                            border: 1.8px white solid;
+                            font-size: 11px;
+                            box-shadow: 0px 0px 0px 10px rgba(50,196,132,0.338);
+                            -webkit-box-shadow: 0px 0px 0px 10px rgba(50,196,132,0.338);
+                            -moz-box-shadow: 0px 0px 0px 10px rgba(50, 196, 133, 0.338);
+                        }
+                    }
+
+                    .cardfer {
+                        width: 100%;
+                        padding: 10px;
+                        margin-top: -15px;
+                        padding-top: 35px;
+                        background-color: #12182b;
+                        color: white;
+                        border-radius: 13px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .desfer {
+                            font-family: $poppins;
+                            text-align: center;
+                            h3 {
+                                font-size: 12px;
+                            }
+                            p {
+                                font-size: 8px;
+                                color: #898c95;
+                            }
+                        }
+
+                        .code {
+                            @media screen and (min-width: $media-lg){
+                                width: 100%;
+                            }
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            button {
+                                @media screen and (min-width: $media-lg){
+                                    width: 45px;
+                                    height: 45px;
+                                }
+                                width: 65px;
+                                height: 65px;
+                                background-color: transparent;
+                                border: 1.5px #292f40 solid;
+                                border-radius: 10px;
+                                color: white;
+                                font-family: $poppins;
+
+                                &:hover {
+                                    border: 1.5px white solid;
+                                }
+                            }
+                        }
+
+                        .linefer {
+                            margin-top: 10px;
+                            width: 89%;
+                            height: 0.5vh;
+                            background-color: #292f40;
+
+                            .freen {
+                                width: 30%;
+                                height: 0.5vh;
+                                background-color: #33c780;
+                            }
+                        }
+
+                        .send {
+                            margin-top: 20px;
+                            padding-bottom: 15px;
+                            text-align: center;
+                            font-size: 8px;
+                            color: #898c95;
+                            font-family: $poppins;
+
+                            a {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .sentpos {
+                    .titelsen {
+                        width: 100%;
+                        padding: 20px 25px 20px 25px;
+                        text-align: center;
+                        background-color: white;
+                        border-radius: 13px;
+                        font-family: $poppins;
+                        border-bottom: 1.5px dotted black;
+                        h3 {
+                            font-size: 13px;
+                        }
+                        p {
+                            margin-top: 3px;
+                            font-size: 9px;
+                            color: #898c95;
+                        }
+                    }
+                    .store {
+                        width: 100%;
+                        padding: 15px 10px 8px 10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        border-radius: 13px;
+                        font-family: $poppins;
+
+                        .trans {
+                            width: 94%;
+                            padding: 10px 15px;
+                            background-color: #edf9f2;
+                            border-radius: 10px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            .paper {
+                                @media screen and (min-width: $media-lg){
+                                    width: 20%;
+                                }
+                                width: 13.8%;
+                                padding: 8px 10px;
+                                background-color: #c9f5dd;
+                                color: #33c780;
+                                border-radius: 10px
+                            }
+                            
+                            .moon {
+                                width: 80%;
+                                display: flex;
+                                flex-direction: column;
+                                .titelmon {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    h4 {
+                                        font-size: 11px;
+                                    }
+                                    i {
+                                        font-size: 5px;
+                                        color: #33c780;
+                                    }
+                                }
+
+                                .date {
+                                    p {
+                                        font-size: 11px;
+                                        color: #898c95;
+                                    }
+                                }
+                            }
+                        }
+
+                        .linesen {
+                            margin-top: 15px;
+                            width: 40%;
+                            height: 0.4vh;
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+
+            .duaright {
+                width: 100%;
+                @media screen and (min-width: $media-lg){
+                    width: 45%;
+                }
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .secure {
+                    width: 100%;
+                    height: 205px;
+                    position: relative;
+                    border-radius: 13px;
+
+                    .mas {
+                        width: 100%;
+                        
+                        img {
+                            width: 100%;
+                            height: 205px;
+                            border-radius: 13px;
+                        }
+                    }
+
+                    .text {
+                        width: 100%;
+                        height: 205px;
+                        padding: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        position: absolute;
+                        border-radius: 13px;
+                        top: 0;
+                        background-color: rgba(0, 0, 0, 0.368);
+                        font-family: $poppins;
+                        color: white;
+
+                        .atas {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            h4 {
+                                font-size: 11px;
+                            }
+                            i {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .bawah {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-end;
+                            h2 {
+                                width: 30%;
+                                font-size: 17px;
+                            }
+                            i {
+                                height: 20px;
+                                aspect-ratio: 1/1;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                background-color: transparent;
+                                color: white;
+                                border: 1.8px white solid;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .balance {
+                    width: 100%;
+                    height: 135px;
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border-radius: 13px;
+                    background: rgb(122,103,214);
+                    background: linear-gradient(90deg, rgba(122,103,214,1) 0%, rgba(70,53,194,1) 50%, rgba(65,49,164,1) 100%);
+                    font-family: $poppins;
+                    color: white;
+
+                    .topb {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .estar {
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 3px;
+
+                            .starr {
+                                margin-top: 3px;
+                                font-size: 5px;
+                            }
+                            h4 {
+                                font-size: 13px;
+                            }
+                        }
+
+                        .ikonel {
+                            font-size: 11px;
+                        }
+                    }
+
+                    .bottomb {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+
+                        .leftb {
+                            display: flex;
+                            flex-direction: column;
+                            .usd {
+                                display: flex;
+                                align-items: flex-end;
+                                gap: 3px;
+                                p {
+                                    margin-bottom: 4px;
+                                    font-size: 10px;
+                                }
+                            }
+                            .to {
+                                font-size: 9px;
+                                color: #d9dbde;
+                            }
+                        }
+                        .arrow {
+                            i {
+                                height: 18px;
+                                aspect-ratio: 1/1;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                background-color: transparent;
+                                color: white;
+                                border: 1.8px white solid;
+                                font-size: 9px;
+                            }
+                        }
+                    }
+
+                }
+
+                .massage {
+                    width: 100%;
+                    height: 160px;
+                    padding: 15px;
+                    border-radius: 13px;
+                    font-family: $poppins;
+                    background-color: white;
+
+                    .navmas {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #4131a4;
+                        h4 {
+                            font-size: 11px;
+                        }
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .mss {
+                        margin-top: 10px;
+
+                        .trans {
+                            width: 100%;
+                            padding: 10px 0;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            border-bottom: 1.8px #e8e8ea solid;
+
+                            .paper {
+                                @media screen and (min-width: $media-lg){
+                                    width: 14%;
+                                }
+                                width: 9.8%;
+                                padding: 6px 10px;
+                                background-color: #fae3da;
+                                color: #e27751;
+                                border-radius: 10px;
+                                font-size: 12px;
+                            }
+                            
+                            .moon {
+                                width: 89%;
+                                display: flex;
+                                flex-direction: column;
+                                .titelmon {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    h4 {
+                                        font-size: 11px;
+                                        display: flex;
+                                        align-items: flex-start;
+                                        span {
+                                            margin-left: 4px;
+                                            margin-top: 4px;
+                                            font-size: 4px;
+                                            color: #33c780;
+                                        }
+                                    }
+                                    p {
+                                        font-size: 10px;
+                                    }
+                                }
+
+                                .date {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    p {
+                                        font-size: 10px;
+                                        color: #898c95;
+                                    }
+                                    i {
+                                        height: 9px;
+                                        aspect-ratio: 1/1;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 50%;
+                                        background-color: #de5c5d;
+                                        color: white;
+                                        border: none;
+                                        font-size: 6px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .trans1 {
+                            width: 100%;
+                            padding: 10px 0;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            .paper {
+                                @media screen and (min-width: $media-lg){
+                                    width: 14%;
+                                }
+                                width: 9.8%;
+                                padding: 6px 10px;
+                                background-color: #fae3da;
+                                color: #e27751;
+                                border-radius: 10px;
+                                font-size: 12px;
+                            }
+                            
+                            .moon {
+                                width: 89%;
+                                display: flex;
+                                flex-direction: column;
+                                .titelmon {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    h4 {
+                                        font-size: 11px;
+                                        display: flex;
+                                        align-items: flex-start;
+                                        span {
+                                            margin-left: 4px;
+                                            margin-top: 4px;
+                                            font-size: 4px;
+                                            color: #33c780;
+                                        }
+                                    }
+                                    p {
+                                        font-size: 10px;
+                                    }
+                                }
+
+                                .date {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    p {
+                                        font-size: 10px;
+                                        color: #898c95;
+                                    }
+                                    i {
+                                        height: 9px;
+                                        aspect-ratio: 1/1;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 50%;
+                                        background-color: #de5c5d;
+                                        color: white;
+                                        border: none;
+                                        font-size: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

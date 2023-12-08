@@ -252,7 +252,7 @@ section {
             border-radius: 30px;
 
             .left {
-                margin-top: 62px;
+                margin-top: 20px;
                 width: 70%;
                 display: flex;
                 justify-content: flex-start;
@@ -272,7 +272,7 @@ section {
                         display: flex;
                         align-items: center;
                         gap: 9px;
-                        font-size: 25px;
+                        font-size: 30px;
                         font-family: 'Inter', sans-serif;
 
                         &::after {
@@ -290,24 +290,28 @@ section {
 
                 .art {
                     width: 70%;
-                    margin-top: 20px;
+                    margin-top: 15px;
                     gap: 19px;
+                    flex-direction: column;
+                    
                     @media screen and (min-width: $media-lg) {
                         display: flex;
+                        flex-direction: row;
                         align-items: center;
                     }
 
                     button {
                         @media screen and (min-width: $media-sm) {
                             width: 56%;
+                            font-size: 20px;
                         }
-                        
+                        width: 100%;
                         padding: 8px 11px 7.5px 11px;
                         background-color: transparent;
                         color: white;
                         border: 1px white solid;
                         border-radius: 25px;
-                        font-size: 20px;
+                        font-size: 15px;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
@@ -326,20 +330,25 @@ section {
 
                     p {
                         @media screen and (min-width: $media-lg) {
-                            
+                            margin-bottom: 15px;
                         }
                         font-size: 15.2px;
+                        margin-top: 15px;
                     }
                 }
             }
 
             .right {
+                width: 100%;
+                @media screen and (min-width: $media-lg) {
+                    width: 30%;
+                    align-items: flex-end;
+                    
+                }
                 margin-top: 47px;
-                width: 30%;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
-                align-items: flex-end;
                 gap: 25.5px;
 
                 img {
@@ -349,6 +358,11 @@ section {
                 }
 
                 button {
+                    @media screen and (min-width: $media-lg) {
+                        width: 40%;
+                        
+                    }
+                    width: 34%;
                     padding: 5px 23px;
                     background-color: rgba(255, 255, 255, 0.228);
                     color: white;
@@ -363,26 +377,219 @@ section {
             margin-top: 28.5px;
             padding: 0 4px;
             display: flex;
+            flex-direction: column;
             align-items: flex-start;
+            @media screen and (min-width: $media-lg) {
+                width: 100%;
+                flex-direction: row;
+            }
 
             .buttone {
-                width: 50%;
+                width: 100%;
+                @media screen and (min-width: $media-lg) {
+                    width: 50%;
+                }
 
                 button {
+                    @media screen and (min-width: $media-lg) {
+                        font-size: 18.7px;
+                    }
                     padding: 1px 5px;
                     margin-right: 2px;
                     background-color: transparent;
                     color: #6d6c6c;
                     border: 1px #6d6c6c solid;
                     border-radius: 18px;
-                    font-size: 18.7px;
+                    font-size: 15px;
                 }
             }
 
             .metro {
-                width: 50%;
-                padding-left: 20px;
-                font-size: 21.9px;
+                @media screen and (min-width: $media-lg) {
+                    width: 50%;
+                    padding-left: 20px;
+                    font-size: 21.9px;
+                    margin-top: -0px;
+                }
+                width: 100%;
+                padding-left: 0;
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        }
+
+        .content3 {
+            @media screen and (min-width: $media-lg) {
+                display: flex;
+                flex-direction: row;
+            }
+            flex-direction: column;
+            margin-top: 29.8px;
+            align-items: flex-start;
+            gap: 10px;
+
+            .satu {
+                @media screen and (min-width: $media-lg) {
+                    width: 32.9%;
+                    margin-bottom: 5px;
+                }
+                margin-top: 5px;
+                width: 100%;
+                padding: 30px;
+                border: 1px #6d6c6c solid;
+                border-radius: 25px;
+
+                .late {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        @media screen and (min-width: $media-lg) {
+                            font-size: 18.7px;
+                        }
+                        background-color: transparent;
+                        color: white;
+                        border: 1px white solid;
+                        border-radius: 18px;
+                        padding: 1.4px 7px;
+                        font-size: 15px;
+                    }
+
+                    i {
+                        width: 25px;
+                        aspect-ratio: 1/1;
+                        background-color: white;
+                        color: black;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                img {
+                    margin-top: 14.5px;
+                    width: 100%;
+                }
+
+                .design {
+                    @media screen and (min-width: $media-lg) {
+                        font-size: 20.7px;
+                    }
+                    margin-top: 9.5px;
+                    font-size: 17px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    border-bottom: 1px white solid;
+                    padding-bottom: 14.5px;
+
+                    .gene {
+                        @media screen and (min-width: $media-lg) {
+                            width: 20px;
+                        }
+                        width: 60%;
+                        padding-left: 2px;
+                    }
+
+                    .view {
+                        margin-right: 9px;
+                    }
+                }
+
+                .test {
+                    margin-top: 20.5px;
+                    font-size: 15.6px;
+                    color: #c7c7c7;
+
+                    u {
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        @media screen and (min-width: $media-lg) {
+            padding-top: 0;
+        }
+        padding: 0 17px 17px 17.5px;
+        padding-top: 10px;
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+
+        .decem {
+            padding-bottom: 15.4px;
+            display: flex;
+            justify-content: flex-end;
+            border-bottom: 2px white solid;
+
+            button {
+                background-color: #151d1b;
+                color: white;
+                border: 0 #151d1b solid;
+                border-radius: 18px;
+                font-size: 12px;
+                padding: 0 13px;
+            }
+        }
+
+        .list {
+            padding: 28.7px 0 18.7px 0;
+            @media screen and (min-width: $media-lg) {
+                display: flex;
+                gap: 26.2rem;
+            }
+            display: flex;
+            justify-content: space-between;
+            gap: 0;
+            font-size: 12.1px;
+
+            .allget {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                @media screen and (min-width: $media-lg) {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                .coop {
+                    @media screen and (min-width: $media-lg) {
+                        display: flex;
+                    }
+                    display: none;
+                    margin-left: 16rem;
+                    gap: 1.73rem;
+                }
+
+                .get {
+                    display: flex;
+                    margin-left: 3.219rem;
+                    margin-top: 10px;
+                    gap: 0.4rem;
+
+                    .chev {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        div {
+                            width: 41px;
+                            height: 2px;
+                            background-color: white;
+                            position: relative;
+                            left: 7px;
+                        }
+
+                        i {
+                            font-size: 10px;
+                        }
+                    }
+                }
             }
         }
     }

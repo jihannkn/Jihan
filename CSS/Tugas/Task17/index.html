@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <!-- JS -->
+    <script src="./src/js/app.js" defer></script>
+    <title>Disorganized</title>
+</head>
+<body>
+    <section class="w-full p-[20px] flex flex-col gap-[20px] items-center pb-[50px] lg:pb-[0]">
+        <div class="nav w-full lg:flex lg:items-center gap-[10px]">
+            <div class="kiri lg:w-[30%] flex items-center justify-between">
+                <h1 class="font-extrabold text-[1.5rem] lg:text-[1.5rem]">Welcome back !<p class="text-[1rem] font-semibold">Hi, Jihan</p></h1>
+                <div class="ikon flex gap-[20px]">
+                    <i class="fa-solid fa-bell h-[50px] aspect-square flex justify-center items-center text-[1.5rem] border rounded-full border-[2px] text-black"></i>
+                    <i class="fa-solid fa-user h-[50px] aspect-square flex justify-center items-center text-[1.5rem] border rounded-full border-[2px] text-[gray]"></i>
+                </div>
+            </div>
+            <div class="tengah lg:w-[40%] flex gap-[10px] items-center mt-[10px] lg:mt-[0]">
+                <div class="ser w-[90%] bg-zinc-200 px-[10px] rounded-[10px] p-[5px] flex items-center">
+                    <input type="text" placeholder="Brands, Products, ..." class="bg-transparent py-[10px] outline-none w-full">
+                    <i class="fa-solid fa-magnifying-glass text-[1.2rem] text-[gray]"></i>
+                </div>
+                <i class="fa-solid fa-bars w-[20%] lg:w-[10%] h-[50px] aspect-square flex justify-center items-center text-[1.5rem bg-rose-800 text-[white] rounded-[10px]"></i>
+            </div>
+            <div class="kanan w-[30%] lg:flex hidden">
+                <ul class="w-full flex items-center justify-between">
+                    <li class="border px-[10px] py-[10px] font-extrabold rounded-[10px] border-[3px] hover:bg-rose-800 hover:[white] hover:border-[white]"><a href="#">Brands</a></li>
+                    <li class="border px-[10px] py-[10px] font-extrabold rounded-[10px] border-[3px] hover:bg-rose-800 hover:[white] hover:border-[white]"><a href="#">Products</a></li>
+                    <li class="border px-[10px] py-[10px] font-extrabold rounded-[10px] border-[3px] hover:bg-rose-800 hover:[white] hover:border-[white]"><a href="#">About Us</li>
+                    <li class="border px-[10px] py-[10px] font-extrabold rounded-[10px] border-[3px] hover:bg-rose-800 hover:[white] hover:border-[white]"><a href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="isi w-full">
+            <div class="produk w-full flex flex-col">
+                <div class="atas w-full flex justify-between items-center">
+                    <h1 class="text-[1.5rem] font-extrabold">Popular Products</h1>
+                    <p class="text-[1rem] font-semibold text-rose-800">View all</p>
+                </div>
+                <div class="ps w-full py-[30px] flex overflow-auto gap-[20px] ">
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full ">
+                            <img src="./public/assets/image/ps.png" alt="" class="w-full">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px] text-[gray] bg-[white]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px] text-[gray]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/black.png" alt="" class="w-full h-[170px] lg:h-[190px]">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/ps.png" alt="" class="w-full">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/black.png" alt="" class="w-full h-[170px] lg:h-[200px]">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/ps.png" alt="" class="w-full">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/black.png" alt="" class="w-full h-[170px] lg:h-[200px]">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/ps.png" alt="" class="w-full">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/black.png" alt="" class="w-full h-[170px] lg:h-[200px]">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/ps.png" alt="" class="w-full">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                    <div class="card border px-[15px] py-[25px] w-[70%] lg:w-[20%] gap-[15px] relative shrink-0 rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                        <div class="mbar w-full">
+                            <img src="./public/assets/image/black.png" alt="" class="w-full h-[170px] lg:h-[200px]">
+                        </div>
+                        <div class="inpo w-full flex flex-col items-center gap-[10px]">
+                            <h1 class="font-extrabold">Solar Red Joystick</h1>
+                            <div class="harga w-full flex items-center justify-between">
+                                <div class="hooh">
+                                    <p class="font-semibold text-[gray]">Accessories</p>
+                                    <h3 class="flex font-extrabold text-rose-800">$233 <p class="font-normal text-[gray]">/Pcs</p></h3>
+                                </div>
+                                <button class="bg-gray-500 h-[40px] aspect-square rounded-[10px] "><i class="fa-solid fa-cart-shopping text-[1rem] text-white"></i></button>
+                            </div>
+                        </div>
+                        <div class="ikon w-full flex items-center justify-center gap-[20px] absolute bottom-[-25px] left-[0]">
+                            <i class="fa-solid fa-xmark h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                            <i class="fa-solid fa-star h-[50px] aspect-square flex justify-center items-center text-rose-800 text-[1.5rem] border border-[4px] rounded-full"></i>
+                            <i class="fa-solid fa-check h-[30px] border aspect-square flex items-center justify-center rounded-full border-[4px]"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="kit w-full">
+                    <div class="atas w-full flex justify-between items-center">
+                        <h1 class="text-[1.5rem] font-extrabold">Recomended</h1>
+                        <p class="text-[1rem] font-semibold text-rose-800">view all</p>
+                    </div>
+                    <div class="kus flex py-[30px] flex overflow-auto gap-[20px] lg:justify-between">
+                        <div class="card w-full lg:w-[30%] flex items-center justify-between border border-[3px] p-[15px] rounded-[20px] shrink-0">
+                            <div class="mbar w-[40%]">
+                                <img src="./public/assets/image/pc.png " alt="" class="h-[80px]">
+                            </div>
+                            <div class="hooh w-[60%] flex justify-between">
+                                <h1 class="font-extrabold ">Ps5 Solar red <p class=" font-normal text-[gray]">Packages</p></h1>
+                                <h1 class="flex font-extrabold text-rose-800">$788 <p class="font-normal text-[gray]">/Pcs</p></h1>
+                            </div>
+                        </div>
+                        <div class="card w-full lg:w-[30%] flex items-center justify-between border border-[3px] p-[15px] rounded-[20px] shrink-0">
+                            <div class="mbar w-[40%]">
+                                <img src="./public/assets/image/pc.png " alt="" class="h-[80px]">
+                            </div>
+                            <div class="hooh w-[60%] flex justify-between">
+                                <h1 class="font-extrabold ">Ps5 Solar red <p class=" font-normal text-[gray]">Packages</p></h1>
+                                <h1 class="flex font-extrabold text-rose-800">$788 <p class="font-normal text-[gray]">/Pcs</p></h1>
+                            </div>
+                        </div>
+                        <div class="card w-full lg:w-[30%] flex items-center justify-between border border-[3px] p-[15px] rounded-[20px] shrink-0">
+                            <div class="mbar w-[40%]">
+                                <img src="./public/assets/image/pc.png " alt="" class="h-[80px]">
+                            </div>
+                            <div class="hooh w-[60%] flex justify-between">
+                                <h1 class="font-extrabold ">Ps5 Solar red <p class=" font-normal text-[gray]">Packages</p></h1>
+                                <h1 class="flex font-extrabold text-rose-800">$788 <p class="font-normal text-[gray]">/Pcs</p></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bawahl lg:hidden w-[90%] fixed bottom-[10px] bg-[white] p-[10px] rounded-t-[20px]">
+            <div class="kanan w-full flex justify-between items-center">
+                <button class="px-[10px] py-[7px] flex gap-[5px] rounded-[20px] bg-rose-800 text-[white]"><i class="fa-solid fa-compass text-[1.5rem] font-extrabold bg-rose-800 rounded-full text-[white]"></i> MEET ME </button>
+                <i class="fa-solid fa-gamepad text-[2rem] text-gray-300"></i>
+                <i class="fa-solid fa-comment text-[2rem] text-gray-300"></i>
+                <i class="fa-solid fa-user text-[2rem] text-gray-300"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
